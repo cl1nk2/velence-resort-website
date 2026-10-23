@@ -230,7 +230,7 @@ export function FacilitiesTemplate({ page, locale, t }: TemplateProps) {
   const extra = childrenOf(page.id).filter((c) => c.template !== "facility");
   return (
     <>
-      <PageHero title={d.title} kicker={d.subtitle} image={page.id === "saunas" ? items[0]?.image : page.image} crumbs={crumbsFor(page.id, locale)} tone="spa" />
+      <PageHero title={d.title} kicker={d.subtitle} image={page.id === "saunas" ? (items[0]?.cardImage ?? items[0]?.image) : page.image} crumbs={crumbsFor(page.id, locale)} tone="spa" />
       <div className="container-page py-20">
         <Blocks blocks={d.blocks.filter((b) => b.type === "html").slice(0, 1)} t={t} locale={locale} title={d.title} />
         <ul className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -259,7 +259,7 @@ export function FacilityTemplate({ page, locale, t }: TemplateProps) {
   const parent = page.parent ? getPage(page.parent) : undefined;
   return (
     <>
-      <PageHero title={d.title} kicker={parent ? pageTitle(parent.id, locale) : null} image={page.image} crumbs={crumbsFor(page.id, locale)} tone="spa">
+      <PageHero title={d.title} kicker={parent ? pageTitle(parent.id, locale) : null} image={page.cardImage ?? page.image} crumbs={crumbsFor(page.id, locale)} tone="spa">
         <div className="mt-8 max-w-3xl">
           <FacilityFacts facts={d.facts} locale={locale} large />
         </div>

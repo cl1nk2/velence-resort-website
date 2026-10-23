@@ -261,9 +261,9 @@ export function ReviewsTemplate({ page, locale, t }: TemplateProps) {
                 </div>
                 <Quote className="mt-4 size-6 text-lake-300" aria-hidden="true" />
                 <p className="mt-2 font-semibold leading-relaxed text-navy-800" lang="hu">
-                  {r.title}
+                  {r.title || r.text}
                 </p>
-                {r.text && (
+                {r.title && r.text && (
                   <p className="mt-2 line-clamp-4 text-sm leading-relaxed text-navy-800/70" lang="hu">
                     {r.text}
                   </p>

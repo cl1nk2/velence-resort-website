@@ -136,9 +136,16 @@ export function search(locale: Locale, query: string, limit = 3) {
     }
     return { d, s: s * d.boost };
   });
+  const seen = new Set<string>();
   return scored
     .filter((x) => x.s > 0)
     .sort((a, b) => b.s - a.s)
+    .filter(({ d }) => {
+      const key = `${d.href}|${d.title}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
     .slice(0, limit)
     .map(({ d, s }) => ({ title: d.title, answer: d.answer.length > 420 ? d.answer.slice(0, 420).replace(/\s\S*$/, "") + "…" : d.answer, href: d.href, score: s }));
 }

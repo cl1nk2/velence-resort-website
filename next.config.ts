@@ -3,6 +3,8 @@ import urlmap from "./src/content/urlmap.json";
 
 /** 308 redirects from the old site's paths (now locale-prefixed) to the new slugs. */
 function legacyRedirects() {
+  // Never redirect a path that is a live page on the new site (e.g. the locale roots).
+  const live = new Set(Object.values(urlmap as Record<string, string>));
   const seen = new Set<string>();
   const out: { source: string; destination: string; permanent: true }[] = [];
   for (const [oldUrl, target] of Object.entries(urlmap as Record<string, string>)) {
@@ -13,7 +15,7 @@ function legacyRedirects() {
       continue;
     }
     const source = path.startsWith("/en/") || path === "/en" ? path : `/hu${path}`;
-    if (!source || source === target || source === "/hu" || seen.has(source) || /[^\w\-/]/.test(source)) continue;
+    if (!source || source === target || live.has(source) || seen.has(source) || /[^\w\-/]/.test(source)) continue;
     seen.add(source);
     out.push({ source, destination: target, permanent: true });
   }

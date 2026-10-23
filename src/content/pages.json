@@ -39,7 +39,7 @@
    "slug": "hotel",
    "title": "Hotel",
    "subtitle": "Családbarát szálloda a Velencei-tó partján",
-   "metaTitle": "Hotel – Velence Resort & Spa",
+   "metaTitle": "Hotel",
    "description": "Velence Resort & Spa – Családbarát szálloda, ahol a pihenés és az élmények találkoznak.",
    "blocks": [
     {
@@ -142,7 +142,7 @@
    "slug": "hotel",
    "title": "Hotel",
    "subtitle": "Family-friendly hotel on Lake Velence",
-   "metaTitle": "Hotel – Velence Resort & Spa",
+   "metaTitle": "Hotel",
    "description": "Velence Resort & Spa – Where leisure and memorable experiences converge.",
    "blocks": [
     {
@@ -513,7 +513,7 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h2>FinomságokA legkisebbeknek is</h2> <p>Éttermünk a hazai és nemzetközi konyha ízeivel, vegetáriánus ételekkel, gyermekmenüvel és bébiételek széles választékával várja a vendégeket. Ételallergiás vendégeinkre is felkészültünk.</p> <ul><li>Gyermekek kedvencei</li> <li>Egészséges, ízletes választék</li> <li>Speciális étrendű gyermekeknek megfelelő fogások</li></ul> <a href=\"/hu/gyerekmenu-specialis-etrendek\">Részletek</a>"
+       "html": "<h2>Finomságok A legkisebbeknek is</h2> <p>Éttermünk a hazai és nemzetközi konyha ízeivel, vegetáriánus ételekkel, gyermekmenüvel és bébiételek széles választékával várja a vendégeket. Ételallergiás vendégeinkre is felkészültünk.</p> <ul><li>Gyermekek kedvencei</li> <li>Egészséges, ízletes választék</li> <li>Speciális étrendű gyermekeknek megfelelő fogások</li></ul> <a href=\"/hu/gyerekmenu-specialis-etrendek\">Részletek</a>"
       }
      ]
     },
@@ -1170,7 +1170,7 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h2>Minden napAnimációs programok és játszóház</h2><ul><li>Animációs programok és játszóház</li> <li>Kreatív foglalkozás és társasjáték</li> <li>Sportos kihívások kül- és beltéren</li></ul><a href=\"/hu/animacio-es-kreativ-foglalkozasok\">Animációs programok megtekintése</a>"
+       "html": "<h2>Minden nap Animációs programok és játszóház</h2><ul><li>Animációs programok és játszóház</li> <li>Kreatív foglalkozás és társasjáték</li> <li>Sportos kihívások kül- és beltéren</li></ul><a href=\"/hu/animacio-es-kreativ-foglalkozasok\">Animációs programok megtekintése</a>"
       }
      ]
     },
@@ -1257,7 +1257,7 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h2>DailyAnimation Programs and Playroom</h2><ul><li>Animation Programs and Playroom</li> <li>Creative Workshops and Board Games</li> <li>Indoor and Outdoor Sports Challenges</li></ul><a href=\"/en/animation-and-creative-workshops\">View Animation Programs</a>"
+       "html": "<h2>Daily Animation Programs and Playroom</h2><ul><li>Animation Programs and Playroom</li> <li>Creative Workshops and Board Games</li> <li>Indoor and Outdoor Sports Challenges</li></ul><a href=\"/en/animation-and-creative-workshops\">View Animation Programs</a>"
       }
      ]
     },
@@ -1351,7 +1351,7 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h2>Ismerd megEle-Falva lakóit!</h2><p>Ele-Fülöp és Ele-Fanni, a két vidám kis elefánt, kalandos úton érkeztek a Velencei-tóhoz, ahol azonnal beleszerettek a tóparti szállodába. Azóta is itt élnek, és minden nap teljes életnagyságban várják a gyermekeket, hogy együtt éljenek át felejthetetlen élményeket.</p>Elolvasom a történetet"
+       "html": "<h2>Ismerd meg Ele-Falva lakóit!</h2><p>Ele-Fülöp és Ele-Fanni, a két vidám kis elefánt, kalandos úton érkeztek a Velencei-tóhoz, ahol azonnal beleszerettek a tóparti szállodába. Azóta is itt élnek, és minden nap teljes életnagyságban várják a gyermekeket, hogy együtt éljenek át felejthetetlen élményeket.</p>Elolvasom a történetet"
       }
      ]
     },
@@ -2079,7 +2079,7 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h3>Szimulátorok, PlayStation</h3><p>Ki ne szeretne a Forma 1-es bajnokok bőrébe bújni egy rövid időre? Kis- és nagy kamaszok, no meg felnőttek kedvence is a lobbyban kialakított 2 db Forma 1-es szimulátor és a PlayStation állomás.</p>"
+       "html": "<h3>Szimulátorok, Play Station</h3><p>Ki ne szeretne a Forma 1-es bajnokok bőrébe bújni egy rövid időre? Kis- és nagy kamaszok, no meg felnőttek kedvence is a lobbyban kialakított 2 db Forma 1-es szimulátor és a PlayStation állomás.</p>"
       }
      ]
     },
@@ -2236,7 +2236,7 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h3>Simulators, PlayStation</h3><p>Who wouldn’t want to step into the shoes of Formula 1 champions for a short time? The two Formula 1 simulators and the PlayStation station set up in the lobby are favorites among younger and older teenagers, as well as adults.</p>"
+       "html": "<h3>Simulators, Play Station</h3><p>Who wouldn’t want to step into the shoes of Formula 1 champions for a short time? The two Formula 1 simulators and the PlayStation station set up in the lobby are favorites among younger and older teenagers, as well as adults.</p>"
       }
      ]
     },
@@ -3395,7 +3395,7 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h2>SzobáinkSzálláslehetőség</h2><ul><li>179 db kétágyas, erkélyes, tóra néző szoba</li> <li>4 db tópanorámás lakosztály, pótágyazási lehetőséggel.</li> <li>Főépületi Deluxe szobáink a luxus kényelmét nyújtják.</li></ul>"
+       "html": "<h2>Szobáink Szálláslehetőség</h2><ul><li>179 db kétágyas, erkélyes, tóra néző szoba</li> <li>4 db tópanorámás lakosztály, pótágyazási lehetőséggel.</li> <li>Főépületi Deluxe szobáink a luxus kényelmét nyújtják.</li></ul>"
       }
      ]
     },
@@ -3411,7 +3411,7 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h2>VendéglátásSanse Café &amp; Restaurant</h2> <ul><li>Büférendszerű reggeli és svédasztalos vacsora kínálattal készülünk, az étterem befogadóképessége 200 fő. Panoráma éttermünkben svédasztalos vacsorára, vagy tányérszervizes gálavacsorára előzetes egyeztetést követően biztosítunk lehetőséget.</li> <li>Chef’s Bistronkban a’la carte étlappal várjuk vendégeinket 9:00 és 20:30 között.</li></ul>"
+       "html": "<h2>Vendéglátás Sanse Café &amp; Restaurant</h2> <ul><li>Büférendszerű reggeli és svédasztalos vacsora kínálattal készülünk, az étterem befogadóképessége 200 fő. Panoráma éttermünkben svédasztalos vacsorára, vagy tányérszervizes gálavacsorára előzetes egyeztetést követően biztosítunk lehetőséget.</li> <li>Chef’s Bistronkban a’la carte étlappal várjuk vendégeinket 9:00 és 20:30 között.</li></ul>"
       }
      ]
     },

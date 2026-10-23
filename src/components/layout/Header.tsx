@@ -188,7 +188,7 @@ function MegaMenu({
       <div
         id={id}
         hidden={!open}
-        className="absolute left-1/2 top-full z-50 mt-3 w-[min(46rem,90vw)] -translate-x-1/2 overflow-hidden rounded-3xl bg-white text-navy-800 shadow-lift ring-1 ring-navy-100"
+        className="fixed left-1/2 top-[calc(var(--header-h)-.25rem)] z-50 w-[min(52rem,94vw)] -translate-x-1/2 overflow-hidden rounded-3xl bg-white text-navy-800 shadow-lift ring-1 ring-navy-100"
       >
         <div className="grid grid-cols-[1fr_15rem]">
           <ul className="grid grid-cols-2 gap-1 p-4">

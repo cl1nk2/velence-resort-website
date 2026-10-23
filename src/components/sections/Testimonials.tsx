@@ -17,7 +17,7 @@ export function Stars({ value, size = "size-4" }: { value: number; size?: string
 
 /** Infinite marquee of real guest quotes (pauses on hover, static for reduced motion). */
 export function Testimonials({ locale, label }: { locale: Locale; label: string }) {
-  const list = (reviews.reviews as Review[]).filter((r) => r.title.length > 20);
+  const list = (reviews.reviews as Review[]).map((r) => ({ ...r, title: r.title || r.text })).filter((r) => r.title.length > 20);
   const row = [...list, ...list];
   return (
     <div className="group relative overflow-hidden" role="region" aria-label={label}>
