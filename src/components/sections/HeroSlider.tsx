@@ -21,6 +21,8 @@ export function HeroSlider({
   children?: ReactNode;
 }) {
   const [i, setI] = useState(0);
+  // The first slide paints immediately (it is the LCP element); later slides animate in.
+  const [changed, setChanged] = useState(false);
   const [paused, setPaused] = useState(false);
   const [hover, setHover] = useState(false);
   const reduce = useRef(false);
@@ -30,7 +32,19 @@ export function HeroSlider({
     if (reduce.current) setPaused(true);
   }, []);
 
-  const go = useCallback((n: number) => setI((n + slides.length) % slides.length), [slides.length]);
+  const go = useCallback(
+    (n: number) => {
+      setChanged(true);
+      setI((n + slides.length) % slides.length);
+    },
+    [slides.length],
+  );
+  // Only fetch the visible slide and preload the next one (keeps LCP fast on mobile).
+  const [loaded, setLoaded] = useState<Set<number>>(() => new Set([0]));
+  useEffect(() => {
+    const t = setTimeout(() => setLoaded((prev) => new Set([...prev, i, (i + 1) % slides.length])), i === 0 ? 2500 : 0);
+    return () => clearTimeout(t);
+  }, [i, slides.length]);
 
   useEffect(() => {
     if (paused || hover) return;
@@ -55,7 +69,8 @@ export function HeroSlider({
           aria-hidden={n !== i}
           className={clsx("absolute inset-0 -z-10 transition-opacity duration-[1400ms] ease-out", n === i ? "opacity-100" : "opacity-0")}
         >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
+          {loaded.has(n) && (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={sl.src}
             srcSet={sl.srcSet}
@@ -66,6 +81,7 @@ export function HeroSlider({
             loading={n === 0 ? "eager" : "lazy"}
             style={sl.blur ? { backgroundImage: `url(${sl.blur})`, backgroundSize: "cover" } : undefined}
           />
+          )}
         </div>
       ))}
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950/90 via-navy-950/35 to-navy-950/50" />
@@ -75,10 +91,10 @@ export function HeroSlider({
         <div className="grid items-end gap-10 lg:grid-cols-[1fr_22rem]">
           <div aria-live={paused ? "polite" : "off"} aria-atomic="true">
             <p className="text-sm font-extrabold uppercase tracking-[0.25em] text-lake-200">{kicker}</p>
-            <h1 key={`h${i}`} className="mt-4 max-w-4xl animate-[fadeIn_.9s_ease-out] font-display text-5xl leading-[1.02] text-balance drop-shadow sm:text-6xl lg:text-7xl">
+            <h1 key={`h${i}`} className={clsx("mt-4 max-w-4xl font-display text-5xl leading-[1.02] text-balance drop-shadow sm:text-6xl lg:text-7xl", changed && "animate-[fadeIn_.9s_ease-out]")}>
               {s.title}
             </h1>
-            <p key={`p${i}`} className="mt-5 max-w-xl animate-[fadeIn_1.1s_ease-out] text-lg text-white/90 sm:text-xl">
+            <p key={`p${i}`} className={clsx("mt-5 max-w-xl text-lg text-white/90 sm:text-xl", changed && "animate-[fadeIn_1.1s_ease-out]")}>
               {s.text}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">

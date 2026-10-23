@@ -33,7 +33,7 @@ the hotel (`hotel.velencespa.com`) and the spa (`furdo.velencespa.com`) into one
 
 | Variable | Purpose |
 | --- | --- |
-| `DATABASE_URL` | Neon connection string (added automatically by the Vercel ↔ Neon integration) |
+| `DATABASE_URL` | Neon connection string (added automatically by the Vercel ↔ Neon integration). Without it the site serves the bundled content read-only. Any non-Neon Postgres URL works too (TCP driver). |
 | `ADMIN_PASSWORD` | Password for `/admin` |
 | `SESSION_SECRET` | ≥32 random characters used to sign the admin session |
 | `NEXT_PUBLIC_SITE_URL` | Canonical origin (optional, defaults to the Vercel production URL) |
@@ -43,10 +43,17 @@ the hotel (`hotel.velencespa.com`) and the spa (`furdo.velencespa.com`) into one
 
 ```bash
 npm run dev          # local dev
-npm run build        # migrates + seeds the DB if DATABASE_URL is set, then builds
-npm run db:push      # push schema with drizzle-kit
-npm run db:seed      # seed offers/news/prices from src/content
+npm run build        # prebuild creates tables + seeds the DB if DATABASE_URL is set, then builds
+npm run db:setup     # same schema/seed step on its own (idempotent)
+npm run images -- <download-dir>   # regenerate responsive WebP variants + manifest
 ```
 
 Content was migrated from the original sites (with permission) by a throttled crawler; the
 extraction/cleanup scripts live outside the repo, the image pipeline is `scripts/process-images.mjs`.
+
+## Quality checks (local, production build)
+
+- axe-core (WCAG 2.2 AA rules): 0 violations on 20 sampled HU/EN pages
+- Lighthouse desktop: performance 95–98, accessibility 100, best practices 100
+- Lighthouse mobile (simulated slow 4G): performance ~72–85, accessibility 100
+- SEO category reports 69 only because indexing is intentionally disabled (`noindex` + `robots.txt`) for the showcase

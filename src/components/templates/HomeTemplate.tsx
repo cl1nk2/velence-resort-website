@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
+import { preload } from "react-dom";
 import { ArrowRight, Car, Train, Waves, Sparkles, Star } from "lucide-react";
 import home from "@/content/home.json";
 import site from "@/content/site.json";
@@ -42,6 +43,8 @@ export async function HomeTemplate({ locale, t }: { locale: Locale; t: Dictionar
       href: s.link === "booking" ? null : hrefOrFallback(s.link, locale),
     };
   });
+  // Let the browser start fetching the LCP hero image before hydration.
+  if (slides[0]?.srcSet) preload(slides[0].src, { as: "image", imageSrcSet: slides[0].srcSet, imageSizes: "100vw", fetchPriority: "high" });
   const [offers, news] = await Promise.all([getActiveOffers(), getPublishedNews()]);
   const galleryImgs = toGalleryImages(
     [...(albums.find((a) => a.id === "adventure-pool")?.images.slice(0, 4) ?? []), ...(albums.find((a) => a.id === "kids")?.images.slice(0, 4) ?? []), ...(albums.find((a) => a.id === "beach")?.images.slice(0, 4) ?? [])].map((src) => ({ src, alt: "" })),

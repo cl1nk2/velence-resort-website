@@ -31,7 +31,10 @@ export async function NewsTemplate({ page, locale, t }: TemplateProps) {
   return (
     <>
       <PageHero title={d.title} kicker={d.subtitle} image={news[0]?.image} crumbs={crumbsFor(page.id, locale)} />
-      <section className="container-page py-16">
+      <section className="container-page py-16" aria-labelledby="news-list-h">
+        <h2 id="news-list-h" className="sr-only">
+          {t.home.newsTitle}
+        </h2>
         {locale === "en" && (
           <p className="mb-6 flex items-center gap-2 rounded-2xl bg-gold-400/15 p-4 text-sm font-semibold text-navy-800">
             <Languages className="size-5 shrink-0" aria-hidden="true" />

@@ -39,7 +39,10 @@ export async function OffersTemplate({ page, locale, t }: TemplateProps) {
         }}
       />
       <PageHero title={d.title} kicker={d.subtitle} intro={locale === "hu" ? "Különleges csomagajánlataink között biztosan megtalálod a neked és szeretteidnek tökéletes kikapcsolódást – élj a lehetőséggel!" : "Discover our special packages – you're sure to find the perfect getaway for you and your loved ones."} image={offers[0]?.heroImage ?? page.image} crumbs={crumbsFor(page.id, locale)} />
-      <section className="container-page py-16">
+      <section className="container-page py-16" aria-labelledby="offer-list-h">
+        <h2 id="offer-list-h" className="sr-only">
+          {t.offers.subtitle}
+        </h2>
         <OfferFilter options={options} label={t.offers.title}>
           {offers.map((o, i) => (
             <li key={o.id} data-cats={o.categories.join(" ")}>

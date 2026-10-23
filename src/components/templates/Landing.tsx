@@ -150,8 +150,8 @@ export async function SpaTemplate({ page, locale, t }: TemplateProps) {
   return (
     <>
       <PageHero title="Velence Spa" kicker={t.common.discover} intro={home.spaIntro[locale]} image={home.slides[4].image} crumbs={crumbsFor(page.id, locale)} tone="spa" size="lg">
-        <div className="mt-6">
-          <span className="rounded-full bg-white/90 p-1">
+        <div className="mt-6 flex h-9 items-center">
+          <span className="inline-flex h-9 items-center rounded-full bg-white/90 px-1">
             <OpenStatus open={site.spaHours.open} close={site.spaHours.close} labels={{ openNow: t.common.openNow, closedNow: t.common.closedNow, opensAt: t.common.opensAt, closesAt: t.common.closesAt }} />
           </span>
         </div>

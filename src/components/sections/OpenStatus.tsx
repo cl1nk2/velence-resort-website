@@ -16,9 +16,9 @@ export function OpenStatus({ open, close, labels }: { open: string; close: strin
     const id = setInterval(calc, 60_000);
     return () => clearInterval(id);
   }, [open, close, labels]);
-  if (!state) return <span className="inline-block h-7 w-32 animate-pulse rounded-full bg-white/20" aria-hidden="true" />;
+  if (!state) return <span className="inline-block h-7 w-48 animate-pulse rounded-full bg-navy-100/60" aria-hidden="true" />;
   return (
-    <span className={clsx("inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm font-extrabold", state.isOpen ? "bg-emerald-500/15 text-emerald-700" : "bg-spa-500/10 text-spa-600")} role="status">
+    <span className={clsx("inline-flex h-7 items-center gap-2 whitespace-nowrap rounded-full px-3 text-sm font-extrabold", state.isOpen ? "bg-emerald-500/15 text-emerald-700" : "bg-spa-500/10 text-spa-600")} role="status">
       <span className="relative flex size-2.5">
         {state.isOpen && <span className="absolute inline-flex size-full animate-ping rounded-full bg-emerald-500 opacity-75" />}
         <span className={clsx("relative inline-flex size-2.5 rounded-full", state.isOpen ? "bg-emerald-500" : "bg-spa-500")} />

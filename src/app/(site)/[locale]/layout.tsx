@@ -21,7 +21,7 @@ import { ChatWidget } from "@/components/chat/ChatWidget";
 
 const nunito = Nunito({ subsets: ["latin", "latin-ext"], variable: "--font-nunito", display: "swap" });
 const varela = Varela_Round({ subsets: ["latin", "latin-ext"], weight: "400", variable: "--font-varela", display: "swap" });
-const script = localFont({ src: "../../../fonts/abovethesky.woff2", variable: "--font-script", display: "swap", preload: false });
+const script = localFont({ src: "../../../fonts/abovethesky.woff2", variable: "--font-script", display: "optional", preload: true });
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
