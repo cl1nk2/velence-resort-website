@@ -1,0 +1,32 @@
+{
+  "name": "Velence Resort & Spa",
+  "legalName": "VRS Part HOTEL Kft.",
+  "stars": 4,
+  "url": "https://velencespa.com",
+  "address": { "street": "Béke u. 57.", "postalCode": "2481", "city": "Velence", "region": "Fejér", "country": "HU" },
+  "geo": { "lat": 47.2302, "lng": 18.6526 },
+  "phones": {
+    "hotel": "+36 22 589 900",
+    "spa": "+36 22 589 971",
+    "sales": ["+36 22 589 911", "+36 22 589 920", "+36 22 589 923"]
+  },
+  "emails": { "info": "info@velencespa.com", "reservation": "reservation@velencespa.com", "spa": "spa@velencespa.com", "hr": "hr@velencespa.com" },
+  "salesHours": { "hu": "Hétfőtől péntekig 8:00–16:00", "en": "Monday to Friday 8:00–16:00" },
+  "social": {
+    "instagram": "https://www.instagram.com/velencespa/",
+    "facebook": "https://www.facebook.com/velencespa",
+    "youtube": "https://www.youtube.com/user/Velencespa",
+    "tiktok": "https://www.tiktok.com/@elefalva"
+  },
+  "booking": {
+    "search": "https://book.velencespa.com/foglalas/kereses",
+    "voucher": "https://book.velencespa.com/ajandekutalvanyok",
+    "quote": "https://book.velencespa.com/ajanlatkeres",
+    "register": "https://book.velencespa.com/regisztracio",
+    "programs": "https://book.velencespa.com/programok"
+  },
+  "spaHours": { "open": "10:00", "close": "20:00", "cashierClose": "18:00" },
+  "checkIn": "15:00",
+  "checkOut": "11:00",
+  "stats": { "wellnessM2": 3600, "pools": 8, "saunas": 8, "days": 365 }
+}

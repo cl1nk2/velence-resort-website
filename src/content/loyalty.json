@@ -1,0 +1,28 @@
+{
+  "welcomePoints": 1000,
+  "tiers": [
+    { "id": "silver", "name": { "hu": "Ezüstpart", "en": "Silver Coast" }, "requirement": { "hu": "Regisztráció", "en": "Registration" }, "discount": 5, "pointsCap": 5, "color": "#9aa7b3" },
+    { "id": "gold", "name": { "hu": "Aranyhíd", "en": "Golden Bridge" }, "requirement": { "hu": "6 eltöltött éjszaka", "en": "6 nights spent" }, "discount": 10, "pointsCap": 10, "color": "#d9b25c" },
+    { "id": "diamond", "name": { "hu": "Gyémánt Horizont", "en": "Diamond Horizon" }, "requirement": { "hu": "12 eltöltött éjszaka", "en": "12 nights spent" }, "discount": 15, "pointsCap": 15, "color": "#62b0de" }
+  ],
+  "intro": {
+    "hu": "Elindult a Velence Resort & Spa egyedi és előnyökkel járó törzsvendégprogramja! Hosszas előkészületek és rengeteg vendégvélemény után létrehoztunk egy programot, amellyel egyszerűen és hatékonyan hálálhatjuk meg vendégeink bizalmát és lojalitását.",
+    "en": "Velence Resort & Spa's unique loyalty programme has launched! After long preparation and reading countless guest reviews, we created a programme that lets us easily and effectively reward our guests' trust and loyalty."
+  },
+  "benefits": {
+    "hu": [
+      "Regisztráció után azonnal 1000 bónuszpont, amely már az első foglalásnál beváltható",
+      "Minden weboldalon indított foglalás után pontjóváírás és azonnali kedvezmény",
+      "Exkluzív, csak tagoknak szóló promóciók első kézből",
+      "Minden 100 Ft = 1 pont, a pontok értéke 1 Ft",
+      "Saját fiókban kezelheted adataidat, ajánlatkéréseidet és foglalásaidat"
+    ],
+    "en": [
+      "1,000 bonus points immediately after registration, redeemable on your very first booking",
+      "Points and an instant discount on every booking made on the hotel website",
+      "Exclusive member-only promotions, first hand",
+      "Every HUF 100 = 1 point, each point is worth HUF 1",
+      "Manage your details, enquiries and bookings in your own account"
+    ]
+  }
+}

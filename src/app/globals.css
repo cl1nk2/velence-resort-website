@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+/*
+ * Velence Resort & Spa design tokens.
+ * Navy + lake-blue come from the hotel brand, magenta from the spa brand.
+ */
+@theme {
+  --color-navy-50: #f1f5f9;
+  --color-navy-100: #dde7ef;
+  --color-navy-200: #ccd5da;
+  --color-navy-300: #8fa2b7;
+  --color-navy-400: #7694aa;
+  --color-navy-500: #2f6690;
+  --color-navy-600: #1a4d72;
+  --color-navy-700: #1a3f5b;
+  --color-navy-800: #14304a;
+  --color-navy-900: #14222e;
+  --color-navy-950: #0b151d;
+
+  --color-lake-50: #f0f8fd;
+  --color-lake-100: #daeaf7;
+  --color-lake-200: #b4d6ee;
+  --color-lake-300: #8ec3e6;
+  --color-lake-400: #62b0de;
+  --color-lake-500: #4a9bcc;
+  --color-lake-600: #4a7fa1;
+  --color-lake-700: #355569;
+  --color-lake-800: #1e2b34;
+
+  --color-spa-50: #fdf2f8;
+  --color-spa-100: #fbe3f0;
+  --color-spa-200: #f3c1dc;
+  --color-spa-300: #e094b8;
+  --color-spa-400: #bc6d9f;
+  --color-spa-500: #b50776;
+  --color-spa-600: #8f145e;
+  --color-spa-700: #590037;
+
+  --color-sand-50: #fcfbf8;
+  --color-sand-100: #f8f7f4;
+  --color-sand-200: #efece4;
+  --color-sand-300: #e2dccd;
+  --color-gold-400: #d9b25c;
+  --color-gold-500: #b88a1b;
+  --color-gold-600: #9f7509;
+
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-varela), var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+  --font-script: var(--font-script), "Brush Script MT", cursive;
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+  --radius-4xl: 3rem;
+
+  --shadow-soft: 0 10px 40px -12px rgb(20 34 46 / 0.18);
+  --shadow-lift: 0 24px 60px -20px rgb(20 34 46 / 0.35);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-ken-burns: ken-burns 18s ease-out both;
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-ripple: ripple 3.2s ease-out infinite;
+
+  @keyframes ken-burns {
+    from { transform: scale(1.12) translate3d(0, 0, 0); }
+    to { transform: scale(1) translate3d(0, 0, 0); }
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  @keyframes progress {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(12px) scale(.98); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes ripple {
+    0% { transform: scale(0.6); opacity: 0.6; }
+    100% { transform: scale(2.4); opacity: 0; }
+  }
+}
+
+:root {
+  --header-h: 4.5rem;
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 1rem);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-sand-50);
+  color: var(--color-navy-900);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible, consistent keyboard focus everywhere. */
+:focus-visible {
+  outline: 3px solid var(--color-lake-400);
+  outline-offset: 3px;
+  border-radius: 0.375rem;
+}
+
+::selection {
+  background: var(--color-lake-200);
+  color: var(--color-navy-900);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= 40rem) { padding-inline: 1.5rem; }
+  @media (width >= 64rem) { padding-inline: 2rem; }
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+/* Long-form content rendered from the CMS blocks. */
+@utility prose-resort {
+  color: var(--color-navy-800);
+  line-height: 1.75;
+  font-size: 1.0625rem;
+  & > * + * { margin-top: 1.1em; }
+  & h2 { font-family: var(--font-display); font-size: 1.75rem; line-height: 1.25; color: var(--color-navy-700); margin-top: 1.8em; }
+  & h3 { font-family: var(--font-display); font-size: 1.3rem; line-height: 1.3; color: var(--color-navy-700); margin-top: 1.5em; }
+  & h4 { font-weight: 700; margin-top: 1.3em; }
+  & a { color: var(--color-navy-600); text-decoration: underline; text-decoration-color: var(--color-lake-300); text-underline-offset: 3px; text-decoration-thickness: 2px; transition: text-decoration-color .2s; }
+  & a:hover { text-decoration-color: var(--color-navy-600); }
+  & ul { list-style: none; padding-left: 0; }
+  & ul > li { position: relative; padding-left: 1.6em; margin-top: .45em; }
+  & ul > li::before { content: ""; position: absolute; left: .2em; top: .62em; width: .55em; height: .55em; border-radius: 9999px; background: var(--color-lake-400); box-shadow: 0 0 0 3px var(--color-lake-100); }
+  & ol { list-style: decimal; padding-left: 1.4em; }
+  & ol > li { margin-top: .45em; padding-left: .3em; }
+  & strong { color: var(--color-navy-900); font-weight: 700; }
+  & table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  & th, & td { padding: .65rem .85rem; border-bottom: 1px solid var(--color-navy-100); text-align: left; vertical-align: top; }
+  & th { background: var(--color-lake-50); font-weight: 700; color: var(--color-navy-700); }
+  & blockquote { border-left: 4px solid var(--color-lake-300); padding-left: 1rem; font-style: italic; }
+  & > :first-child { margin-top: 0; }
+}
+
+/* Gentle reveal used by <Reveal>. Content stays visible without JS. */
+.reveal { opacity: 1; }
+.js .reveal:not(.is-visible) { opacity: 0; transform: translate3d(0, 28px, 0); }
+.js .reveal { transition: opacity .9s var(--ease-out-expo), transform .9s var(--ease-out-expo); transition-delay: var(--reveal-delay, 0ms); }
+
+.wave-mask {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80' preserveAspectRatio='none'%3E%3Cpath d='M0 40c240-40 480-40 720 0s480 40 720 0V80H0z'/%3E%3C/svg%3E");
+  mask-size: 100% 100%;
+}
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+.table-wrap { overflow-x: auto; border-radius: 1rem; box-shadow: 0 0 0 1px var(--color-navy-100); background: white; }
+.table-wrap table { min-width: 32rem; }
+details > summary::marker { content: ""; }
+
+/* Offer filter: the list's data-filter hides items whose data-cats don't include it. */
+[data-filter="ele"] > [data-cats]:not([data-cats~="ele"]),
+[data-filter="season"] > [data-cats]:not([data-cats~="season"]),
+[data-filter="family"] > [data-cats]:not([data-cats~="family"]) { display: none; }
+[data-filter="spa"] > [data-cats]:not([data-cats~="spa"]),
+[data-filter="ele-village"] > [data-cats]:not([data-cats~="ele-village"]) { display: none; }

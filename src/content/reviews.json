@@ -1,0 +1,192 @@
+{
+ "average": 4.4,
+ "count": 2676,
+ "aspects": [
+  {
+   "q": "Mennyire volt elégedett a szállásfoglalás egyszerűségével?",
+   "score": 4.8
+  },
+  {
+   "q": "Milyennek találta a fogadtatást bejelentkezésnél?",
+   "score": 4.6
+  },
+  {
+   "q": "Hogyan értékelné a recepciósok udvariasságát és figyelmességét?",
+   "score": 4.7
+  },
+  {
+   "q": "Mennyire találta tisztának a szobát?",
+   "score": 4.4
+  },
+  {
+   "q": "Mennyire volt elégedett az ágy kényelmével?",
+   "score": 4.0
+  },
+  {
+   "q": "Mennyire volt használható a TV a szobában?",
+   "score": 3.5
+  },
+  {
+   "q": "Mennyire volt elégedett a csatornaválasztékkal?",
+   "score": 3.5
+  },
+  {
+   "q": "Megfelelt az elvárásainak a szoba berendezése?",
+   "score": 4.5
+  },
+  {
+   "q": "Hogyan értékelné a büféreggelit választék szempontjából?",
+   "score": 4.5
+  },
+  {
+   "q": "Hogyan értékelné a büféreggelit minőség szempontjából?",
+   "score": 4.5
+  },
+  {
+   "q": "Hogyan értékelné a büfévacsorát választék szempontjából?",
+   "score": 4.4
+  },
+  {
+   "q": "Hogyan értékelné a büfévacsorát minőség szempontjából?",
+   "score": 4.4
+  },
+  {
+   "q": "Mennyire volt elégedett a Papa’s Bar szolgáltatásaival?",
+   "score": 4.5
+  },
+  {
+   "q": "Mennyire volt elégedett a Chef’s Bistro szolgáltatásaival?",
+   "score": 4.4
+  },
+  {
+   "q": "Elégedett volt a vendéglátó személyzet kedvességével?",
+   "score": 4.6
+  },
+  {
+   "q": "Elégedett volt a vendéglátó személyzet szakmai hozzáértésével?",
+   "score": 4.5
+  },
+  {
+   "q": "Mennyire volt elégedett a wellness részleg szolgáltatásaival?",
+   "score": 4.5
+  },
+  {
+   "q": "Mennyire volt elégedett a szaunavilág kínálatával és élményével?",
+   "score": 4.5
+  },
+  {
+   "q": "Mennyire volt elégedett a masszázs/kozmetikai szolgáltatásokkal?",
+   "score": 4.6
+  },
+  {
+   "q": "Hogyan értékelné animátoraink kedvességét?",
+   "score": 4.9
+  },
+  {
+   "q": "Hogyan értékelné animátoraink felkészültségét?",
+   "score": 4.8
+  },
+  {
+   "q": "Ha részt vettek animációs programon, hogyan értékelné?",
+   "score": 4.8
+  },
+  {
+   "q": "Mennyire volt elégedett szállodánkkal?",
+   "score": 4.4
+  },
+  {
+   "q": "Milyennek találta a szálloda általános tisztaságát?",
+   "score": 4.4
+  },
+  {
+   "q": "A szálloda általános hangulata megfelelt az elvárásainak?",
+   "score": 4.6
+  },
+  {
+   "q": "Általánosan értékelje a személyzet kedvességét.",
+   "score": 4.7
+  }
+ ],
+ "reviews": [
+  {
+   "category": "Családdal",
+   "score": 4.9,
+   "name": "K. Attila",
+   "date": "2026-10-22",
+   "title": "Nagyszerű gyerekbarát hotel, kedves személyzet, kellemes kikapcsolódás és időtöltés.",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 5.0,
+   "name": "K. Pálma",
+   "date": "2026-10-19",
+   "title": "Ismét kellemes élmény volt!",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 5.0,
+   "name": "Gy. Richárd",
+   "date": "2026-10-18",
+   "title": "",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 4.6,
+   "name": "P. Balázs",
+   "date": "2026-10-17",
+   "title": "",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 4.9,
+   "name": "G. Kitti",
+   "date": "2026-10-13",
+   "title": "",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 4.4,
+   "name": "Zsuzsanna",
+   "date": "2026-10-13",
+   "title": "Maximálisan a gyerekek igényeihez van kialakítva a szálloda, változatosak a gyerekprogramok, fantasztikus és igényes játékok, játékterek, játszószobák, óriáscsúszdák vannak. Rengeteg az offline játéklehetőség. Az animátorok kiemelkedően profik,",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 4.8,
+   "name": "S. Olga",
+   "date": "2026-10-12",
+   "title": "",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 4.9,
+   "name": "C. Viktória",
+   "date": "2026-10-12",
+   "title": "",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 5.0,
+   "name": "B. Adrienn",
+   "date": "2026-10-12",
+   "title": "",
+   "text": ""
+  },
+  {
+   "category": "Családdal",
+   "score": 4.0,
+   "name": "L",
+   "date": "2026-10-10",
+   "title": "jó ár-érték arány, kellemes időtöltés",
+   "text": ""
+  }
+ ]
+}

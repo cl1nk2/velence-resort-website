@@ -1,0 +1,80 @@
+{
+  "slides": [
+    {
+      "image": "https://zcms.hu/velencespacom/img/slider/636687901781dd33ccc8983413e9c50b.jpg",
+      "hu": { "title": "Felejthetetlen pillanatok", "text": "Pihenés, játék, feltöltődés mindenkinek", "cta": "Foglalj most" },
+      "en": { "title": "Unforgettable moments", "text": "Relaxation, play and recharging for everyone", "cta": "Book now" },
+      "link": "booking"
+    },
+    {
+      "image": "https://zcms.hu/velencespacom/img/slider/703ada52e9899f7c8c587baa680c5d87.jpg",
+      "hu": { "title": "Csobbanás minden korosztálynak", "text": "Wellness élmények – két emeletnyi kikapcsolódás", "cta": "Medencéink" },
+      "en": { "title": "A splash for every age", "text": "Wellness experiences – two floors of relaxation", "cta": "Our pools" },
+      "link": "pools"
+    },
+    {
+      "image": "https://zcms.hu/velencespacom/img/slider/8668dba4f3de3cd25e677c1272bf7bc9.jpg",
+      "hu": { "title": "Tágas, kényelmes családi szobák", "text": "Baba- és gyerekbarát felszerelések, sok közös élmény vár benneteket!", "cta": "Szobáink" },
+      "en": { "title": "Spacious, comfortable family rooms", "text": "Baby- and child-friendly equipment and plenty of shared experiences await!", "cta": "Our rooms" },
+      "link": "rooms"
+    },
+    {
+      "image": "https://zcms.hu/velencespacom/img/slider/0217573aedd072105b783f7629e55a6f.jpg",
+      "hu": { "title": "Animációs programok", "text": "Animátor csapatunk garancia a tartalmas kikapcsolódásra", "cta": "Programjaink" },
+      "en": { "title": "Entertainment programmes", "text": "Our animation team guarantees fun-filled days", "cta": "Our programmes" },
+      "link": "animation"
+    },
+    {
+      "image": "https://zcms.hu/velencefurdohu/img/slider/5f3e6cf57053678e88d6a3e652484749.jpg",
+      "hu": { "title": "Pihenés, feltöltődés a Velence Spa-ban", "text": "Élménymedencék, szaunaprogramok és exkluzív spa kezelések várnak!", "cta": "Fedezd fel fürdőnket" },
+      "en": { "title": "Relax and recharge at Velence Spa", "text": "Adventure pools, sauna programmes and exclusive spa treatments await!", "cta": "Discover the spa" },
+      "link": "spa"
+    },
+    {
+      "image": "https://zcms.hu/velencespacom/img/slider/4a60c7ea9f951459aaee6e1ced4d1395.jpg",
+      "hu": { "title": "Tél 2026", "text": "Elindult az előfoglalás – foglald le a téli családi pihenést!", "cta": "Ajánlataink" },
+      "en": { "title": "Winter 2026", "text": "Early booking is open – reserve your family winter break!", "cta": "Our offers" },
+      "link": "offers"
+    }
+  ],
+  "choose": {
+    "hotel": "https://zcms.hu/velencespa1com/tartalom/csuszda-jatekter-szalloda-velencespa.webp",
+    "spa": "https://zcms.hu/velencespa1com/tartalom/wellness-medence-belteri-furdo-velencespa.webp"
+  },
+  "why": [
+    {
+      "image": "https://zcms.hu/velencespacom/tartalom/fooldal/585x670_fooldal_wellnessspa_tel.webp",
+      "link": "pools",
+      "hu": { "title": "Wellness & Spa", "text": "Éld át a termálvizes kényeztetés és relaxáció oázisát, ahol minden a teljes feltöltődésről szól." },
+      "en": { "title": "Wellness & Spa", "text": "Discover an oasis of thermal bliss and relaxation, entirely focused on your total revitalisation." }
+    },
+    {
+      "image": "https://zcms.hu/velencespacom/tartalom/fooldal/csaladbarat_hotel.webp",
+      "link": "family",
+      "hu": { "title": "Családbarát hotel", "text": "Szállodánk minden korosztály számára kényelmes és biztonságos élményt nyújt, ahol a család minden tagja megtalálja a számára ideális kikapcsolódást." },
+      "en": { "title": "Family-friendly hotel", "text": "Our hotel provides a comfortable and safe experience for guests of all ages, so every family member finds their perfect way to relax." }
+    },
+    {
+      "image": "https://zcms.hu/velencespacom/tartalom/fooldal/gasztronomia.webp",
+      "link": "gastro",
+      "hu": { "title": "Gasztronómia", "text": "Fedezd fel a kulináris élvezetek világát, ahol profi séfek által készített helyi és nemzetközi ízek várnak." },
+      "en": { "title": "Gastronomy", "text": "Discover a world of culinary delights, featuring local and international flavours crafted by professional chefs." }
+    }
+  ],
+  "spa": [
+    { "image": "https://zcms.hu/velencespacom/tartalom/fooldal/belteri_elmenymedence.webp", "link": "pools", "hu": "Beltéri és kültéri élménymedencék panorámás kilátással", "en": "Indoor and outdoor adventure pools with a panoramic view" },
+    { "image": "https://zcms.hu/velencespacom/tartalom/fooldal/szaunapark.webp", "link": "saunas", "hu": "Szaunavilág finn szaunával, gőzkabinnal és infraszaunával", "en": "Sauna world with Finnish sauna, steam cabin and infrared sauna" },
+    { "image": "https://zcms.hu/velencespacom/tartalom/fooldal/masszazsok.webp", "link": "treatments", "hu": "Masszázsok és szépségkezelések – teljes testi-lelki felfrissülés", "en": "Massages and treatments – total body and soul refreshment" },
+    { "image": "https://zcms.hu/velencespacom/tartalom/fooldal/pihenoterek.webp", "link": "lakeside", "hu": "Jacuzzi és relaxációs terek a tökéletes kikapcsolódásért", "en": "Jacuzzi and tranquil relaxation zones for perfect relaxation" }
+  ],
+  "spaIntro": {
+    "image": "https://zcms.hu/velencefurdohu/tartalom/fooldal/fedezdfel.webp",
+    "hu": "Merülj el a Velence Resort & Spa wellness világában, ahol a pihenés és a regenerálódás tökéletes harmóniája vár! Élvezd a termálmedencék jótékony hatását, próbáld ki a szaunavilágot, vagy kényeztesd magad egy masszázzsal – akár szállóvendégként, akár napijeggyel érkezel.",
+    "en": "Dive into the wellness world of Velence Resort & Spa, where the perfect harmony of relaxation and regeneration awaits! Enjoy the thermal pools, try the sauna world or treat yourself to a massage – whether you're a hotel guest or a day visitor."
+  },
+  "voucher": {
+    "image": "https://zcms.hu/velencefurdohu/tartalom/900x360_ajandekutalvanyok.webp",
+    "hu": { "kicker": "Ajándékutalvány", "title": "Lepd meg szeretteidet wellness élménnyel!", "text": "Ajándékutalványaink rugalmasan felhasználhatók belépőjegyekre, masszázsokra és wellness csomagokra. Tökéletes ajándék bármilyen alkalomra!", "cta": "Ajándékutalvány vásárlás" },
+    "en": { "kicker": "Gift voucher", "title": "Surprise your loved ones with a wellness experience!", "text": "Our gift vouchers can be used flexibly for admission tickets, massages and wellness packages. The perfect gift for any occasion!", "cta": "Buy a gift voucher" }
+  }
+}

@@ -1,0 +1,490 @@
+[
+ {
+  "id": "hotel",
+  "section": "hotel",
+  "hu": {
+   "slug": "hotel",
+   "title": "Hotel"
+  },
+  "en": {
+   "slug": "hotel",
+   "title": "Hotel"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/c662555254b393d439e4e8f4f392d5ec.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/0e996a6928c03555498c537ea17587a1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/ccd9bf19d3851282de9f1509db72e022.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/13fa3cb505902641fa6f87372df96011.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6114dac6453756d130a2ac49ba95febf.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/b7af23dd08aa51bae6f68958e4fd4ef3.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d4cc28daad9a0b65d28ded46a1ab9eab.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/b1b45f803ceb63f730e8a98f0a124cad.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/059f2606661a7ff9a66871ed52f5b839.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/c662555254b393d439e4e8f4f392d5ec.jpg"
+ },
+ {
+  "id": "rooms",
+  "section": "hotel",
+  "hu": {
+   "slug": "szobak",
+   "title": "Szobák"
+  },
+  "en": {
+   "slug": "rooms",
+   "title": "Rooms"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/5cd349207692161f0a43e516e8f2a5f6.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d1ac6a2a39459515d8cb52b650c62e3b.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c8c3b23c558da28534f83f5c4d85d278.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/59cef800e5c29facba8c685a4389d28b.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/990208ae32e4b53db21eac246d42168c.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c45deebc7b1a3b331a698b44e008c6c1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c71d31d5b4dcfc5175cc90f969669699.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/4a7d6cba4da1ce40342018ce716e1325.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d9c7367f90d05482823d358df340b567.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6db6d1b14649e9269b7924aaeba15e54.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/9c9f5867a167ef107f6018197d53153c.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/30b82e06fe8aabb5b5cd7a6b392907d8.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6d2aaf5396a25f72e698752126a5b70d.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/add2f84c5122d7e8c0a35b8979251fc5.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/ef49a63fc8225fff021d6d90bc95c224.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/88ad4b6d2bed7e0a3b2aebad40f4438f.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/f4f01c1e4e4213d09241330da3ba05a9.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/0f4412481ce0db8bd18a96766f188db2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/443774422b528fa9a30e5918856398d0.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6c116113dca68c9479f63a9b757a1985.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/5cd349207692161f0a43e516e8f2a5f6.jpg"
+ },
+ {
+  "id": "kids",
+  "section": "hotel",
+  "hu": {
+   "slug": "gyerekvilag",
+   "title": "Gyerekvilág"
+  },
+  "en": {
+   "slug": "kids",
+   "title": "Children's world"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/74cf1fc8d80b0b4ffecc08cf8a1435c1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/9e72c07ac5bbbee19c9bcfe3c7e4232b.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6130fc9067f1ec78ffe54ecda5f1b476.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/aa62ebf27c9aca9b1e8fa13913e6b88e.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/7121f94e1646cfa0c64fd0194ff2b935.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/10ef9072bca4ba4dcb901026fe29f7dc.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/f8490118c8e7fa9d8c50e641e1ea66f1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/63abdce8eebf65bc05584b7b13b64fc7.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/fffc1232e4a1393d55a276e20931a0ca.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/154761b6103af88c07f539ea4ed1d501.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/9afbefad0f202923267b01be60c14fb5.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/e6cfe3622e897d43bdb1a3911b39fc72.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/2e09965dc787558298773e5bdfbb76b1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c221dc4a19597664f29903f697c20ac2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/fda65b2dfbb74996f5de4c766f8525c2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/cec15f383a50fce6de18d94ec0ef4f8b.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/887ced02561cf1d8982ed368b263bcad.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/f400b2556de19e0b337e31551bc1bb99.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/a31019435a65c9353df1b4c653119c3a.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/216fb273ac3380b7993a8a02a773ca68.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/ca45b9511ead9ad9d78b244af85657af.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/296cb499ec4ca328be415f8135a3489a.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/9a0cf7e92aa0375ac9c139e5702995ed.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/a3a4477592030c6f0b690d4422a83ab7.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/3024cdb72eb9b26a8bd654e8fea7c7e0.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c4bdc2a9bb96590c2f786844c0d45bf3.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/77c2e4cf0d42df97052e6ff83ba186eb.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/b09e327c44ca1fcc63bb2a4061d0b400.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/a258438811c9ca9c260366ef2fad26d1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6367304a51b687128d26ebca5fa47fed.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/b3c6ab5ec438962e6dad6e2350278f3b.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/229b908d86e10f73651497a0f233d8b7.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/79fd5a325a1c24685ba4c5f0680e5e14.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/dd3bf39a840fa6e44143b2f58801f340.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/74cf1fc8d80b0b4ffecc08cf8a1435c1.jpg"
+ },
+ {
+  "id": "animation",
+  "section": "hotel",
+  "hu": {
+   "slug": "animacio",
+   "title": "Animáció"
+  },
+  "en": {
+   "slug": "animation",
+   "title": "Animation"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/c1249b2bd8a8a15cdedfd68fa8166c4b.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/5d40fcca44e7303baf94c4f66177aeca.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c46a0d787b824fe5a93e54610091c931.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/8ce96337217100b89595adbab1bd8cef.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/109288a9b2dc0f70d5fb5de1a0f77e9e.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/60b01857c8dc4ac6981b0c94598fa06a.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/7425a950a7535f16d5edc6e0d0b6f4e2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/0b70c13ca28dd568a498b4f0409998e9.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c503680b39a3856992cbae0b4e6be6a3.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/9c43efb834d97fae45788c43f6285052.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/88490a94b9678c0769926faaf9f7f75d.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/aa0c04b15769ed137e60a88c61dba12a.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6ed1c4f657188da01c61595f755a4fc5.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/b16902c531c3154a4f33d6f80ead57c2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/ee5599d836f16c53006a51fbac9457ad.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/4c196661beac92429c0ad5abd17eaec4.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/5a49de3da9ac9c133385b36d3a500379.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/adce28057cd6e4a76a6eeef219e27729.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/5e566c1ae20a0b555c5816f845a6543b.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d06e233c4f54672b4e30545f0a121031.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/9b6fde0d63e3338dcb13660cfb293669.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/56171d4a6d985058d352df3daac0be41.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/fecef27365324639a58cbbc06126cd54.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/48b46dbb08ed1fe02e68dcaa3fdf2e83.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/f4e8d8a65d1dd12b364985bae743ff03.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/5a7bb0c0d3b7a6c6277e7df03baf68d6.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/fbbba584fd0091d4cf31223ac3f23382.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/36afd91b4ff006da5d6ff1e297936e17.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/9a144c6b8407929fbd932c46959c9b66.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/65d4af29985bc7d47f634a5eb157885a.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/2eb33b21dc3990528a1e236253ed6255.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/f2bfa3467244cdc4cfbb2e93191ed403.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/b69ab92d7a9b22062023e2633364e197.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/45b0c5b2c36cc0efbf1b0195c98d1037.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/915cc34c3d4bb68b0ca24bd706330312.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/f6225492f68fa75712c341b1e6929f82.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/f9dfe59ada522bfaf1c1ad92e9f411f4.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/51dc080adddd8f3878991c093b402ce4.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/e6a9e395dc3f84bf45df7627263358e6.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/56fbf18c60790d3236420445877b1f47.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/c1249b2bd8a8a15cdedfd68fa8166c4b.jpg"
+ },
+ {
+  "id": "hospitality",
+  "section": "hotel",
+  "hu": {
+   "slug": "vendeglatas",
+   "title": "Vendéglátás"
+  },
+  "en": {
+   "slug": "hospitality",
+   "title": "Hospitality"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/6ee79a934ed7d7ea04963aed4f2826fc.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/fa4b37c4e90034ee68496a9015d9e1bb.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/a98ddd154f6e631dfd8893ad14d97beb.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c4a0c87129ffac7260239cb0ba448d3f.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/0e07736486f24faeb13e3d8e610e2432.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d72299a16cb9ad5bba8da95a5782422a.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/5586fd2e017573f83efc6202f5d58ef7.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/a7727a7f14d1f683f1682726b1139b77.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/835913dbc641ed83bf7081598958edd2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/7edb38f134582891ef5f9e67c39e59e4.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/936c6ed8481ab3110b418d7956d20cd1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/199a8f0ed2f9fb82245fc5bf88d09000.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/0f8a521b20684dee26085f826092c0a1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/043a1b8d9f707c1526f947d74b373380.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/58a4487a437d3c493b02cc26ac7b54f4.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/8b3709ae975f9660dd2005fe22e9e890.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/23d7688dc6facfaec27aaf60f0c334ec.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/4f73764ff31fe32efbc91b6531a8355c.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/8517fabf085c075d09aa92e0b758b556.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/e4038d38ae3ca0bea28c9d3f170e5865.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/83756f37ba0efed278b17bc61a30bc6e.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/a6ffa4512b6f9bf0ddafd08d10f824d5.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c45dfab85dc4c8f6e5c88083270d35a1.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/6ee79a934ed7d7ea04963aed4f2826fc.jpg"
+ },
+ {
+  "id": "events",
+  "section": "hotel",
+  "hu": {
+   "slug": "rendezvenyek",
+   "title": "Rendezvények"
+  },
+  "en": {
+   "slug": "events",
+   "title": "Events"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/b0257eaa17d9ede034db52f206e2d858.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/cf9fc2b79984fcee2cee008d4c3095eb.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/5c1aa93914d4f7613e3623894939e7b0.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/789b4bb8f6fa229281505460fb58cce2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c6f298b4b5608dce294cac44fdfe1f16.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/cf063bbea2421a7b4e37cff502d2fea6.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/1c68c9820ce8b88665c8da14f9366b1a.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/fe401f17ed1da69ee52d9ae2fcd4f251.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/e123027d801f527e1309ca8ba95c8551.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/269200b6e103c2449a5edf258fe35a38.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/e8e627ee83bad3a8c034308eef59e583.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d288d4060b651ea671fd1b317fefebc8.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/b0257eaa17d9ede034db52f206e2d858.jpg"
+ },
+ {
+  "id": "adventure-pool",
+  "section": "spa",
+  "hu": {
+   "slug": "elmenyfurdo",
+   "title": "Élményfürdő"
+  },
+  "en": {
+   "slug": "adventure-pool",
+   "title": "Spa and adventure pool"
+  },
+  "images": [
+   "https://zcms.hu/velencefurdohu/img/gallery/3e2644e480ff669827d45e958ec84b1c.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/de29d0bd0ea08f859a7761a56957876d.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/24959ab486198dce42b114d2472d01f9.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/d700b096d697955a83739c92b76918cb.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/66f29aa3a4653b806fb0cc5143f6bb32.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/4abd44c3302b35bef04a4812333effbe.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/1264107fec45333efcefa9827d02fc29.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/33f52d7792fc97702308c601dd8e2154.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/7f9bd860107f56f25e4579cd15401cc6.jpg"
+  ],
+  "cover": "https://zcms.hu/velencefurdohu/img/gallery/3e2644e480ff669827d45e958ec84b1c.jpg"
+ },
+ {
+  "id": "thermal-pools",
+  "section": "spa",
+  "hu": {
+   "slug": "termalmedencek",
+   "title": "Termálmedencék"
+  },
+  "en": {
+   "slug": "thermal-pools",
+   "title": "Thermal pools"
+  },
+  "images": [
+   "https://zcms.hu/velencefurdohu/img/gallery/2e54a2cf07f2d7822c33064685c554d4.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/254d74e4b6ebc53926e4f3a4f3b49034.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/cb59fab1cc292121cf4112fd83eeb21c.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/400fc1eaf522faf431c32bcc1b8c6c13.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/3afbf147e1b3d1f522fa4a4925225676.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/0a3dc9886b1f49bd8d113770caf80623.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/ae5f7abd637f84d3a3db28cd62bd4850.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/6fc7a53bc204a01ad7d96c3116cbe684.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/0b261ff5b59b1e8f92f7c1d0a5e3caa1.jpg"
+  ],
+  "cover": "https://zcms.hu/velencefurdohu/img/gallery/2e54a2cf07f2d7822c33064685c554d4.jpg"
+ },
+ {
+  "id": "kids-pools",
+  "section": "spa",
+  "hu": {
+   "slug": "gyerekmedencek",
+   "title": "Gyerekmedencék"
+  },
+  "en": {
+   "slug": "kids-pools",
+   "title": "Children's pools"
+  },
+  "images": [
+   "https://zcms.hu/velencefurdohu/img/gallery/03e4b7dd5bc48ceb87d153c5e0c1cc95.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/6d5e07c832814dada579acb321a725b1.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/edafa68290c4d3514863fd0f8352d785.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/b1fb471b07fee84808d93d3dbf63877c.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/191153cba49711eb6289049dbee0111c.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/e11f2ec44acc383d21d74fa118153fa7.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/a05370a0cf68dd772af7d3b25a4dfd2f.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/d2c1eedb4ab6a8d2c9b57f25d335d7a0.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/7e8ebdac5b25289414630b27c125b287.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/c553e91acbc99282cd0b4d4551e019a6.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/2e1877805fb75a583cb69fe06832f230.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/54cda39212627358d6023e4a50f947ce.jpg"
+  ],
+  "cover": "https://zcms.hu/velencefurdohu/img/gallery/03e4b7dd5bc48ceb87d153c5e0c1cc95.jpg"
+ },
+ {
+  "id": "outdoor-pools",
+  "section": "spa",
+  "hu": {
+   "slug": "kulteri-medencek",
+   "title": "Kültéri medencék"
+  },
+  "en": {
+   "slug": "outdoor-pools",
+   "title": "Outdoor pools"
+  },
+  "images": [
+   "https://zcms.hu/velencefurdohu/img/gallery/b7ee934f68582b5499c401c7cd9f169c.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/168366b5f998a8eeac336bcbb48bd13a.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/ecb65488823ef64a6b10efacf6ced83d.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/5eb2aebd8e2d368db8c5e11266a16495.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/87cc0e76ed9756ccf5b2826eae47601b.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/aae11b5bd15e8b5dbedce906d99ce052.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/7764e4e034c8181f2093c44f5f844f5a.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/0de24677b3e6f23acf88bb46bb198645.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/e446df6142c8b349314b8807e75f0ae8.jpg"
+  ],
+  "cover": "https://zcms.hu/velencefurdohu/img/gallery/b7ee934f68582b5499c401c7cd9f169c.jpg"
+ },
+ {
+  "id": "pools-beach",
+  "section": "hotel",
+  "hu": {
+   "slug": "elmenyfurdo-es-strand",
+   "title": "Élményfürdő és strand"
+  },
+  "en": {
+   "slug": "pools-beach",
+   "title": "Adventure pool and beach"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/b3e1ad31d4be9ce78555ff08822dc0f2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/3bad4d0bf0db5d01c76602f8ae56e988.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/cbeef554547631fdb1a994e26c9d79d3.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/08ceaadc58db83c76d55ad54fe9b1dbe.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/bb394a062b3bdb47eaf25fd8198cf2dc.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/5b0cc2ac218ad1822a67b4105f8f8468.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/5a100cd4f631d546bf5f13f6113f20f3.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/0baa10b66c4601db25ef21d82de95add.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c69ea60a7b06f66eb071034c26b508d7.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/aa8ee31b4dfe1eabba3c21da4554a790.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d44b8e62607da908b1e8127d98a62d30.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6b9d1619b879e548741324b0e7d809a6.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c8344efbdd079fc77e4552a0bbcfddb3.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/e37510ff70f656e55c4effc1d1fc5e49.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/542f111e5293cd7c4837fdcac18be9b8.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/0c9e019fc30fdf44d1779fdc62815dc0.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/359efe714a4930d70f4ecf569e2f67ba.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/2240e12456187a0b8129bcff8b116d09.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/54cbc687e3b62f2935739abd506c56cd.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/25c5ee6bd7308e589daddda0c01675f3.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/b3e1ad31d4be9ce78555ff08822dc0f2.jpg"
+ },
+ {
+  "id": "beach",
+  "section": "spa",
+  "hu": {
+   "slug": "strand",
+   "title": "Strand"
+  },
+  "en": {
+   "slug": "beach",
+   "title": "Beach"
+  },
+  "images": [
+   "https://zcms.hu/velencefurdohu/img/gallery/60d8783d6ec9638018a3ed05587c7f7b.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/90db8154c549d6bc63a64048c3bba89b.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/5d69c9c6ef7a2e869212102d69fed22d.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/2be76f80a8d180aa3d82f72e8d2fa51d.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/ddc4bf0fec91149aed8eff8a89e97d3a.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/f6199eb7bd4dd4556f5be421037e7f4d.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/c8d032087e2559f570f859b667020283.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/d3024ce7c3f72ec3c8b944248d5105d4.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/c038d0199548c707435601f2f1d213da.jpg"
+  ],
+  "cover": "https://zcms.hu/velencefurdohu/img/gallery/60d8783d6ec9638018a3ed05587c7f7b.jpg"
+ },
+ {
+  "id": "water-activities",
+  "section": "spa",
+  "hu": {
+   "slug": "vizi-programok",
+   "title": "Vízi programok"
+  },
+  "en": {
+   "slug": "water-activities",
+   "title": "Water activities"
+  },
+  "images": [
+   "https://zcms.hu/velencefurdohu/img/gallery/7f578cdb6ddd98bc52299683e08a0e48.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/c757cd23c9b2825ed5264cb42c8d2ef8.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/a97513258d6acf36d62ed8728fe68f54.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/eebe32cab569b844601adb4b4599f5e8.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/6415e66ad16bc5ce4c4d009f8c5b5739.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/30ceed424dfbfb70e3a0bde0adc3a80d.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/62da266a5452567df8f96481a8a726c6.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/d9aa75964dcbcc859b3296786fc9ed59.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/97d9600b678b36403eccd78f35e992c9.jpg"
+  ],
+  "cover": "https://zcms.hu/velencefurdohu/img/gallery/7f578cdb6ddd98bc52299683e08a0e48.jpg"
+ },
+ {
+  "id": "sauna-park",
+  "section": "spa",
+  "hu": {
+   "slug": "szaunapark",
+   "title": "Szaunapark"
+  },
+  "en": {
+   "slug": "sauna-park",
+   "title": "Sauna park"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/be28c1a28c224f353abc57182138be89.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/6bcede1cb53467e225357197d617bb12.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/2ec8738775e5997ea36410a1753e4f00.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/cd538fc55ce194bebbce65a4447e623b.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/b22e5423196695aa2c47e1774e87866f.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/763d36e52e81598c3adbbbc73e0c8739.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/f4140e0e3743881d6bd6299ff91bc31c.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/14e0957198acbdbd63bbf5c96c24f774.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/902348c7b85f7876e12990bf5a837511.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/ea7861740e79bbc399ac68b3c2c7b27a.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/ad017d278c47b5fec98901f9c6862be4.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/c9b2b0b9a4da384d796a45358786ae07.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/d9fc7e5199a075928e655f49f097275d.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/01d300890636399a041864db4e8e37fa.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/8e0dbeefa9546d9e18cafebfc0594e9f.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/3cd1bcb80e41a3ef1ee269049a1210a4.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/fc3a3ec2b86fce548f6a95944b566e07.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/9d4bbb5e93e8795d26a6fd6f22783957.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/af2af00d028d08a9a4eb29860c315839.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/29eb7abbcdc5f80e44efd04c2e76f44e.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/47f0a10d763422e1c0a3d2e053056715.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/be28c1a28c224f353abc57182138be89.jpg"
+ },
+ {
+  "id": "wellness-beauty",
+  "section": "spa",
+  "hu": {
+   "slug": "wellness-beauty",
+   "title": "Wellness & beauty"
+  },
+  "en": {
+   "slug": "wellness-beauty",
+   "title": "Wellness & beauty"
+  },
+  "images": [
+   "https://zcms.hu/velencespacom/img/gallery/71cd8787bc6d86e66425afd4b3d7f466.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c4ab4558752f558567540dcbe94f03f1.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/817a1a8f0134ef61fffddbf14ebe874f.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/bef45224a82efd26523234bde054fc19.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/ab48c25a6a08bd98a52504082c77da60.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/87916bd25dd10bd2aa769bc142ec58c2.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/124ba42b4e74aa300a77fcf55ccc3036.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/64ff19ae8467d7cb49e8eff56ea2e6d5.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d7a32f79109200cb4abe7f0a17d1b421.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/06b746c44e76ffd9142c10ee736f96e4.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/a35db9c254b9355e435a6a8b17d2ff98.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/c753736759acb2b8eee2e8f7c0769bca.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/ad8de94dd16290494fe7c8183446fd88.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/a537caa9eb95c4886c8cf7435baec85d.jpg",
+   "https://zcms.hu/velencespacom/img/gallery/d7781febf877c15a025deba25fdedd4a.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/7a7c04591d757c4e49aeb166e798fc0f.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/b880e0e062f31a1974f2b0fc2f6ffd21.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/2c7f790379fa7e6f57bafd96a247e58f.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/8aba3e30efca78ab2c60e2d4b622bd28.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/f0dd88735634bdefa108f2dfa9b4bb4f.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/21a07ff45369f98920ed50c701c14dd3.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/93770ab49e3a1006c0d8fe1ee8a8c734.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/c1bb0033d1ebb8e0543a7d15513ca8fe.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/cb925cfef61a5ba02c707dc39fa7b153.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/6b30fc4789d227a07ed9798e0c68abda.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/39fd88a39906064daf33c87df04ce572.jpg",
+   "https://zcms.hu/velencefurdohu/img/gallery/894e3763e108224af4d376ccedf0734d.jpg"
+  ],
+  "cover": "https://zcms.hu/velencespacom/img/gallery/71cd8787bc6d86e66425afd4b3d7f466.jpg"
+ }
+]

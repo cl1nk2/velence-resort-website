@@ -1,0 +1,65 @@
+{
+  "validFrom": "2026-08-31",
+  "peakPeriods": [
+    { "from": "2026-10-23", "to": "2026-11-01" },
+    { "from": "2026-12-24", "to": "2027-01-03" }
+  ],
+  "hours": {
+    "hu": { "spa": "Minden nap 10:00 – 20:00", "cashier": "Minden nap 10:00 – 18:00" },
+    "en": { "spa": "Daily 10:00 – 20:00", "cashier": "Daily 10:00 – 18:00" }
+  },
+  "tables": [
+    {
+      "id": "day",
+      "title": { "hu": "Napijegyek", "en": "Day tickets" },
+      "columns": { "hu": ["Hétfő – Csütörtök*", "Péntek – Vasárnap"], "en": ["Monday – Thursday*", "Friday – Sunday"] },
+      "rows": [
+        { "label": { "hu": "Felnőtt (14 éves kortól)", "en": "Adult (from age 14)" }, "prices": [5500, 7900] },
+        { "label": { "hu": "Gyermek (3–14 éves kor között)", "en": "Child (ages 3–14)" }, "prices": [3900, 4900] },
+        { "label": { "hu": "Gyermek (0–3 éves kor között)", "en": "Child (ages 0–3)" }, "prices": [0, 0] },
+        { "label": { "hu": "Családi (2 felnőtt + 2 gyermek, 3–14 éves kor között)", "en": "Family (2 adults + 2 children aged 3–14)" }, "prices": [12900, 17900], "highlight": true },
+        { "label": { "hu": "Senior kedvezmény**", "en": "Senior discount**" }, "prices": [3900, null] },
+        { "label": { "hu": "Senior kedvezmény velencei lakosoknak***", "en": "Senior discount for Velence residents***" }, "prices": [3000, null] }
+      ]
+    },
+    {
+      "id": "afternoon",
+      "title": { "hu": "Délutáni jegyek (16:00-tól)", "en": "Afternoon tickets (from 4 pm)" },
+      "columns": { "hu": ["Hétfő – Csütörtök*", "Péntek – Vasárnap"], "en": ["Monday – Thursday*", "Friday – Sunday"] },
+      "rows": [
+        { "label": { "hu": "Felnőtt (14 éves kortól)", "en": "Adult (from age 14)" }, "prices": [4500, 5900] },
+        { "label": { "hu": "Gyermek (3–14 éves kor között)", "en": "Child (ages 3–14)" }, "prices": [2900, 3900] },
+        { "label": { "hu": "Családi (2 felnőtt + 2 gyermek, 3–14 éves kor között)", "en": "Family (2 adults + 2 children aged 3–14)" }, "prices": [10900, 13900], "highlight": true }
+      ]
+    },
+    {
+      "id": "peak",
+      "title": { "hu": "Kiemelt időszak", "en": "Peak periods" },
+      "columns": { "hu": ["Napijegy", "Délutáni jegy (16:00-tól)"], "en": ["Day ticket", "Afternoon ticket (from 4 pm)"] },
+      "rows": [
+        { "label": { "hu": "Felnőtt (14 éves kortól)", "en": "Adult (from age 14)" }, "prices": [7900, 5900] },
+        { "label": { "hu": "Gyermek (3–14 éves kor között)", "en": "Child (ages 3–14)" }, "prices": [4900, 3900] },
+        { "label": { "hu": "Gyermek (0–3 éves kor között)", "en": "Child (ages 0–3)" }, "prices": [0, 0] },
+        { "label": { "hu": "Családi (2 felnőtt + 2 gyermek, 3–14 éves kor között)", "en": "Family (2 adults + 2 children aged 3–14)" }, "prices": [17900, 13900], "highlight": true }
+      ]
+    }
+  ],
+  "notes": {
+    "hu": [
+      "3 éves korig a belépés hétköznap, hétvégén és kiemelt időszakban is ingyenes.",
+      "* Hétfőtől csütörtökig délutánonként, időjárás függvényében a kültéri tanmedencében vagy a beltéri nagy élménymedencében gyermekek kiscsoportos úszásoktatása zajlik, ami a medence kisebb részének lezárásával jár.",
+      "** 65 éves kor felett személyi igazolvány bemutatásával vehető igénybe.",
+      "*** 65 éves kor felett személyi igazolvány és lakcímkártya bemutatásával, állandó velencei lakosok vehetik igénybe.",
+      "Wellness részlegünk szolgáltatásai kizárólag kártyás fizetéssel (bankkártya, hitelkártya, saját névre szóló SZÉP kártya) vehetők igénybe.",
+      "Szaunafelöntéseink térítési díj ellenében látogathatók (1 000 Ft), szaunaszeánszokat minden kedden, csütörtökön és szombaton tartunk."
+    ],
+    "en": [
+      "Entry is free for children under 3 on weekdays, weekends and during peak periods.",
+      "* From Monday to Thursday afternoons, depending on the weather, small-group swimming lessons for children take place in the outdoor learner pool or the large indoor adventure pool, which may close a small part of the pool.",
+      "** Available to guests over 65 on presentation of a valid ID card.",
+      "*** Available to permanent Velence residents over 65 on presentation of an ID card and proof of address.",
+      "Spa services can only be paid by card (debit card, credit card or personal SZÉP card).",
+      "Sauna infusions are available for an additional fee (HUF 1,000); sauna rituals are held every Tuesday, Thursday and Saturday."
+    ]
+  }
+}

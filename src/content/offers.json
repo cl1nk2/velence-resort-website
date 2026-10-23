@@ -1,0 +1,462 @@
+[
+ {
+  "id": "oszi-szunet-ele-fuloppel-es-ele-fannival",
+  "sort": 0,
+  "published": true,
+  "categories": [
+   "season",
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_e0cc68cb3596c79707e2b70b670ff5e1.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/e0cc68cb3596c79707e2b70b670ff5e1.jpg",
+  "validFrom": "2026-10-23",
+  "validTo": "2026-11-01",
+  "priceFrom": 31400,
+  "minNights": 2,
+  "hu": {
+   "slug": "oszi-szunet-ele-fuloppel-es-ele-fannival",
+   "title": "Őszi szünet Ele-Fülöppel és Ele-Fannival",
+   "summary": "Ele-Fülöp és Ele-Fanni különleges élményekkel várja a gyerekeket és szüleiket, hogy az őszi napok is felejthetetlenek legyenek.",
+   "highlights": [
+    "Minden nap más tematikára épülő animációs programok",
+    "Október 31-én tökfaragás, jelmezes felvonulás, Halloween party - a jelmezed ne felejtsd otthon!",
+    "Nincs nap Eléék nélkül: minden nap találkozhatsz valamelyik Ele-családtaggal"
+   ]
+  },
+  "en": {
+   "slug": "autumn-break-with-ele-fulop-and-ele-fanni",
+   "title": "Autumn break with Ele-Fülöp and Ele-Fanni",
+   "summary": "Ele-Fülöp and Ele-Fanni await children and parents with special experiences to make the autumn days unforgettable.",
+   "highlights": [
+    "Themed entertainment programmes every day",
+    "Pumpkin carving, costume parade and Halloween party on 31 October – don’t forget your costume!",
+    "No day without the Ele family: meet a member of the Ele family every day"
+   ]
+  }
+ },
+ {
+  "id": "ele-fanni-szuletesnapja",
+  "sort": 1,
+  "published": true,
+  "categories": [
+   "ele",
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_c6b0bc8abdb663510b648e4157e95eec.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/c6b0bc8abdb663510b648e4157e95eec.jpg",
+  "validFrom": "2026-11-06",
+  "validTo": "2026-11-08",
+  "priceFrom": 31400,
+  "minNights": 2,
+  "hu": {
+   "slug": "ele-fanni-szuletesnapja",
+   "title": "Ele-Fanni születésnapja",
+   "summary": "Töltsetek el nálunk egy vidám, tartalmas hétvégét Ele-Fanni társaságában! A szülinapi ünneplés alkalmából családi programokkal, játékos pillanatokkal és kellemes kikapcsolódással várunk titeket!",
+   "highlights": [
+    "Születésnapi party Ele-Fannival: köszöntés, ajándékozás, tortázás, közös tánc az ünnepelttel",
+    "Szombat este Pitypang PICI zenekar",
+    "Ajándékkészítés, Ele-kaland, csúszdaverseny, hajfonószalon, minidisco"
+   ]
+  },
+  "en": {
+   "slug": "ele-fanni-birthday",
+   "title": "Ele-Fanni’s birthday",
+   "summary": "Spend a fun-filled weekend with Ele-Fanni! To celebrate her birthday we await you with family programmes, playful moments and relaxation.",
+   "highlights": [
+    "Birthday party with Ele-Fanni: greetings, presents, cake and a dance with the birthday girl",
+    "Saturday evening concert by the Pitypang PICI band",
+    "Gift making, Ele adventure, slide race, hair-braiding salon, mini disco"
+   ]
+  }
+ },
+ {
+  "id": "brandnyul-csomagajanlata",
+  "sort": 2,
+  "published": true,
+  "categories": [
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_17fd7612ac4d72853ad2ee9091f2a0f7.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/17fd7612ac4d72853ad2ee9091f2a0f7.jpg",
+  "validFrom": "2026-11-13",
+  "validTo": "2026-11-15",
+  "priceFrom": 31400,
+  "minNights": 2,
+  "hu": {
+   "slug": "brandnyul-csomagajanlata",
+   "title": "Brandnyúl csomagajánlata",
+   "summary": "Szombat este Brandnyúl vár minden kis lakót egy fergeteges koncertre!",
+   "highlights": [
+    "Szombaton 20:00 órakor Brandnyúl koncert a lobbyban"
+   ]
+  },
+  "en": {
+   "slug": "brandnyul-concert-package",
+   "title": "Brandnyúl concert package",
+   "summary": "On Saturday evening Brandnyúl awaits every little guest with a fantastic concert!",
+   "highlights": [
+    "Brandnyúl concert in the lobby on Saturday at 8 pm"
+   ]
+  }
+ },
+ {
+  "id": "ele-frigyes-szuletesnapja",
+  "sort": 3,
+  "published": true,
+  "categories": [
+   "ele",
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_fa861090ca094a60ab6e36a5bf1b4195.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/fa861090ca094a60ab6e36a5bf1b4195.jpg",
+  "validFrom": "2026-11-20",
+  "validTo": "2026-11-22",
+  "priceFrom": 31400,
+  "minNights": 2,
+  "hu": {
+   "slug": "ele-frigyes-szuletesnapja",
+   "title": "Ele-Frigyes születésnapja",
+   "summary": "Egy hétvége, amikor minden a vidámságról, a közös élményekről és Ele-Frigyesről szól! Szeretettel várjuk a családokat egy jó hangulatú ünneplésre, ahol a gyerekeké a főszerep, de a felnőttek is garantáltan kikapcsolódhatnak.",
+   "highlights": [
+    "Születésnapi party Ele-Frigyessel: köszöntés, ajándékozás, tortázás, közös tánc az ünnepelttel",
+    "Ajándékkészítés, Ele-kaland, csúszdaverseny, minidisco"
+   ]
+  },
+  "en": {
+   "slug": "ele-frigyes-birthday",
+   "title": "Ele-Frigyes’s birthday",
+   "summary": "A weekend all about fun, shared experiences and Ele-Frigyes! Families are welcome to a cheerful celebration where kids take centre stage – and grown-ups get to relax, too.",
+   "highlights": [
+    "Birthday party with Ele-Frigyes: greetings, presents, cake and a dance with the birthday boy",
+    "Gift making, Ele adventure, slide race, mini disco"
+   ]
+  }
+ },
+ {
+  "id": "meses-karacsony-az-ele-csaladdal",
+  "sort": 4,
+  "published": true,
+  "categories": [
+   "season",
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_73f8811ebb2644e3721f9214a22e7e01.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/73f8811ebb2644e3721f9214a22e7e01.jpg",
+  "validFrom": "2026-12-24",
+  "validTo": "2026-12-27",
+  "priceFrom": 34400,
+  "minNights": 3,
+  "hu": {
+   "slug": "meses-karacsony-az-ele-csaladdal",
+   "title": "Mesés karácsony az Ele-családdal",
+   "summary": "Varázslatos ünnepi élmények az egész családnak",
+   "highlights": [
+    "Minden nap más tematikára épülő animációs programok",
+    "Nincs nap Eléék nélkül: minden nap találkozhatsz valamelyik Ele-családtaggal",
+    "Festőműhely, karácsonyfadísz készítés, karácsonyfa díszítés, kalandozás, minidisco, alkotóműhely, csúszdavereny",
+    "December 24-én ünnepi köszöntő és ajándékozás a karácsonyfánál",
+    "December 26-án 20:00 órakor a Kis Hétrét együttes koncertje"
+   ]
+  },
+  "en": {
+   "slug": "fairytale-christmas-with-the-ele-family",
+   "title": "Fairytale Christmas with the Ele family",
+   "summary": "Magical festive experiences for the whole family.",
+   "highlights": [
+    "Themed entertainment programmes every day",
+    "No day without the Ele family: meet a member of the Ele family every day",
+    "Painting workshop, ornament making, tree decorating, adventures, mini disco, creative workshop, slide race",
+    "Festive greeting and gift giving at the Christmas tree on 24 December",
+    "Kis Hétrét band concert on 26 December at 8 pm"
+   ]
+  }
+ },
+ {
+  "id": "teli-szunet-ele-fannival-es-ele-fuloppel",
+  "sort": 5,
+  "published": true,
+  "categories": [
+   "season",
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_eb28972d98dcb5b17577364f541522b7.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/eb28972d98dcb5b17577364f541522b7.jpg",
+  "validFrom": "2026-12-27",
+  "validTo": "2026-12-30",
+  "priceFrom": 35900,
+  "minNights": 3,
+  "hu": {
+   "slug": "teli-szunet-ele-fannival-es-ele-fuloppel",
+   "title": "Téli szünet Ele-Fannival és Ele-Fülöppel",
+   "summary": "Engedd, hogy a téli szünet idén ne a rohanásról, hanem a közös pihenésről szóljon",
+   "highlights": [
+    "Minden nap más tematikára épülő animációs programok",
+    "Nincs nap Eléék nélkül: minden nap találkozhatsz valamelyik Ele-családtaggal",
+    "Kalandozás, minidisco, alkotóműhely, csúszdavereny",
+    "December 29-én 20:00 órakor Télkirály – mesés marionett bábszínházi előadás a Kámfor bábszínházzal"
+   ]
+  },
+  "en": {
+   "slug": "winter-break-with-ele-fanni-and-ele-fulop",
+   "title": "Winter break with Ele-Fanni and Ele-Fülöp",
+   "summary": "Let this year’s winter break be about relaxing together instead of rushing.",
+   "highlights": [
+    "Themed entertainment programmes every day",
+    "No day without the Ele family: meet a member of the Ele family every day",
+    "Adventures, mini disco, creative workshop, slide race",
+    "“The Winter King” marionette show by the Kámfor puppet theatre on 29 December at 8 pm"
+   ]
+  }
+ },
+ {
+  "id": "to-party-szilveszter",
+  "sort": 6,
+  "published": true,
+  "categories": [
+   "season",
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_37547aab62ef5b6b0ca92905235af8e4.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/37547aab62ef5b6b0ca92905235af8e4.jpg",
+  "validFrom": "2026-12-30",
+  "validTo": "2027-01-03",
+  "priceFrom": 38900,
+  "minNights": 4,
+  "hu": {
+   "slug": "to-party-szilveszter",
+   "title": "Tó-party Szilveszter",
+   "summary": "Köszöntsük együtt az újévet szállodánkban, ahol a szülők kikapcsolódhatnak, a gyerekek pedig garantáltan jól érzik magukat",
+   "highlights": [
+    "Minden nap más tematikára épülő animációs programok",
+    "Nincs nap Eléék nélkül: minden nap találkozhatsz valamelyik Ele-családtaggal",
+    "December 31-én szilveszteri vacsora szállodánk Panoráma éttermében vagy földszinti, Sanse éttermében",
+    "Szilveszteri családi programok",
+    "Zenés-táncos mulatság",
+    "Éjféli koccintás, utána szerencsehozó újévi ételek kínálata",
+    "Sztárfellépő: Szinetár Dóra"
+   ]
+  },
+  "en": {
+   "slug": "lake-party-new-years-eve",
+   "title": "Lake Party New Year’s Eve",
+   "summary": "Welcome the new year with us – parents can unwind while the kids are guaranteed to have a great time.",
+   "highlights": [
+    "Themed entertainment programmes every day",
+    "No day without the Ele family: meet a member of the Ele family every day",
+    "New Year’s Eve dinner on 31 December in our Panorama or Sanse restaurant",
+    "Family New Year’s Eve programmes",
+    "Live music and dancing",
+    "Midnight toast followed by traditional lucky New Year dishes",
+    "Star performer: Dóra Szinetár"
+   ]
+  }
+ },
+ {
+  "id": "kedvezmeny-az-ev-minden-napjan",
+  "sort": 7,
+  "published": true,
+  "categories": [
+   "season",
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_7d988aa2f02333b6f35267e534a2245c.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/7d988aa2f02333b6f35267e534a2245c.jpg",
+  "validFrom": "2026-01-04",
+  "validTo": "2026-12-24",
+  "priceFrom": 26910,
+  "minNights": 1,
+  "hu": {
+   "slug": "kedvezmeny-az-ev-minden-napjan",
+   "title": "Kedvezmény az év minden napján",
+   "summary": "10% kedvezmény 100% előrefizetéssel. Foglaltság függvényében foglalható! (A csomagra további kedvezmény nem érvényesíthető!)",
+   "highlights": [
+    "Ajánlatunk a szabad kapacitás függvényében legalább 1 éjszakás tartózkodás esetén foglalható",
+    "A hétvégi időszak (péntektől vasárnapig) minimum 2 éjszakás tartózkodás esetén foglalható",
+    "Az idegenforgalmi adó külön fizetendő, mértéke 800 Ft/fő/éj 18 éves kor felett",
+    "Elfogadott fizetőeszközök: hitel/bankkártya, saját névre szóló K&H, OTP, MKB/MBH SZÉP kártya (SZÉP kártyás érintésmentes fizetés jelenleg nem elérhető)",
+    "Fizetési feltétel: 100% előrefizetés esetén",
+    "Az ár- és programváltoztatás jogát fenntartjuk",
+    "A csomagajánlat az aktuális foglaltság függvényében foglalható",
+    "A foglalás és az időpont módosítása az ár változásával járhat",
+    "Áraink a foglaltság függvényében folyamatosan változnak"
+   ]
+  },
+  "en": {
+   "slug": "discount-every-day-of-the-year",
+   "title": "Discount every day of the year",
+   "summary": "10% discount with 100% prepayment. Subject to availability! (No further discounts apply to this package.)",
+   "highlights": []
+  }
+ },
+ {
+  "id": "kedvezmeny-a-kobon",
+  "sort": 8,
+  "published": true,
+  "categories": [
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_6ccce8d8d6cf0637a8b24f0828570dff.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/6ccce8d8d6cf0637a8b24f0828570dff.jpg",
+  "validFrom": "2026-08-31",
+  "validTo": "2027-03-25",
+  "priceFrom": 20930,
+  "minNights": 1,
+  "hu": {
+   "slug": "kedvezmeny-a-kobon",
+   "title": "Kedvezmény a köbön",
+   "summary": "20% vagy akár 30% kedvezmény 100% előrefizetéssel. Foglaltság függvényében foglalható! (A csomagra további kedvezmény nem érvényesíthető!)",
+   "highlights": [
+    "Ajánlatunk a szabad kapacitás függvényében legalább 1 éjszakás tartózkodás esetén foglalható",
+    "A hétvégi időszak (péntektől vasárnapig) minimum 2 éjszakás tartózkodás esetén foglalható",
+    "Az idegenforgalmi adó külön fizetendő, mértéke 800 Ft/fő/éj 18 éves kor felett",
+    "Elfogadott fizetőeszközök: hitel/bankkártya, saját névre szóló K&H, OTP, MKB/MBH SZÉP kártya (SZÉP kártyás érintésmentes fizetés jelenleg nem elérhető)",
+    "Fizetési feltétel: 100% előrefizetés esetén",
+    "Az ár- és programváltoztatás jogát fenntartjuk",
+    "A csomagajánlat az aktuális foglaltság függvényében foglalható",
+    "A foglalás és az időpont módosítása az ár változásával járhat",
+    "Áraink a foglaltság függvényében folyamatosan változnak"
+   ]
+  },
+  "en": {
+   "slug": "discount-cubed",
+   "title": "Discount cubed",
+   "summary": "20% or even 30% discount with 100% prepayment. Subject to availability! (No further discounts apply to this package.)",
+   "highlights": []
+  }
+ },
+ {
+  "id": "feltoltodes-az-ev-minden-napjan",
+  "sort": 9,
+  "published": true,
+  "categories": [
+   "family"
+  ],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_089ae049c02244ebe4cbb78d2a44a018.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/089ae049c02244ebe4cbb78d2a44a018.jpg",
+  "validFrom": "2026-01-04",
+  "validTo": "2026-12-24",
+  "priceFrom": 29900,
+  "minNights": 1,
+  "hu": {
+   "slug": "feltoltodes-az-ev-minden-napjan",
+   "title": "Feltöltődés az év minden napján",
+   "summary": "Fedezd fel szállodánk családbarát világát, ahol a kikapcsolódás és a közös élmények mindig kéznél vannak!",
+   "highlights": [
+    "Ajánlatunk a szabad kapacitás függvényében legalább 1 éjszakás tartózkodás esetén foglalható",
+    "A hétvégi időszak (péntektől vasárnapig) minimum 2 éjszakás tartózkodás esetén foglalható",
+    "Az idegenforgalmi adó külön fizetendő, mértéke 800 Ft/fő/éj 18 éves kor felett",
+    "Elfogadott fizetőeszközök: hitel/bankkártya, saját névre szóló K&H, OTP, MKB/MBH SZÉP kártya (SZÉP kártyás érintésmentes fizetés jelenleg nem elérhető)",
+    "Az ár- és programváltoztatás jogát fenntartjuk",
+    "A csomagajánlat az aktuális foglaltság függvényében foglalható",
+    "A foglalás és az időpont módosítása az ár változásával járhat",
+    "Áraink a foglaltság függvényében folyamatosan változnak"
+   ]
+  },
+  "en": {
+   "slug": "recharge-every-day-of-the-year",
+   "title": "Recharge every day of the year",
+   "summary": "Discover our family-friendly hotel, where relaxation and shared experiences are always within reach!",
+   "highlights": []
+  }
+ },
+ {
+  "id": "elo-tortenelmunk",
+  "sort": 10,
+  "published": true,
+  "categories": [],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_388e87f7e4b277a9b874928f4a8e2830.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/388e87f7e4b277a9b874928f4a8e2830.jpg",
+  "validFrom": "2025-01-01",
+  "validTo": "2026-12-31",
+  "priceFrom": 30700,
+  "minNights": 2,
+  "hu": {
+   "slug": "elo-tortenelmunk",
+   "title": "Élő történelmünk",
+   "summary": "Lépj be a múlt kapuján és éld át a történelmet testközelből!",
+   "highlights": [
+    "Kizárólag 2 éjszakára foglalható",
+    "Személyenként 1 db belépőjegy a Pákozdi Katonai Emlékparkba",
+    "A Pákozdi Katonai Emlékhely emléket állít az 1848-ban alakult Magyar Honvédség történetének, állandó és időszaki kiállításaival, koncertjeivel, programjaival a térség kulturális palettáját gazdagítja"
+   ]
+  },
+  "en": {
+   "slug": "living-history",
+   "title": "Living history",
+   "summary": "Step through the gate of the past and experience history up close!",
+   "highlights": [
+    "Bookable for exactly 2 nights",
+    "One admission ticket per person to the Pákozd Military Memorial Park",
+    "The memorial commemorates the history of the Hungarian Army founded in 1848, with permanent and temporary exhibitions, concerts and programmes"
+   ]
+  }
+ },
+ {
+  "id": "kerekparral-a-to-korul",
+  "sort": 11,
+  "published": true,
+  "categories": [],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_7c569b7ef65697e71602840198edd2d3.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/7c569b7ef65697e71602840198edd2d3.jpg",
+  "validFrom": "2025-01-01",
+  "validTo": "2026-12-31",
+  "priceFrom": 33800,
+  "minNights": 2,
+  "hu": {
+   "slug": "kerekparral-a-to-korul",
+   "title": "Kerékpárral a tó körül",
+   "summary": "Fedezd fel a festői Velencei-tavat két keréken, miközben a friss levegő és a szabadság érzése feltölt energiával!",
+   "highlights": [
+    "Kizárólag 2 éjszakára foglalható.",
+    "Ingyenes kerékpár bérlés és kerékpáros úti csomag (mely tartalmaz 1 db 0,5 l-es ásványvizet, 1 db idényjellegű gyümölcsöt és 1 db müzliszeletet) egy napra személyenként",
+    "Rövid-, vagy hosszútávú kerékpáros kvíz kitöltése esetén ajándékcsomag. A kerékpáros kvízhez füzet a recepción kérhető.",
+    "A déli parton indulva a Dinnyési Fertő természetvédelmi terület mellett halad a Velencei-tavat megkerülő kerékpárút. A déli oldalon a Sarvajcz keresztje kilátó, az északi parton a Katonai Emlékpark, a Pákozdi Pagony és Vadaspark, Miskahuszár szobra érhető el, de a nagyon edzettek felkerekezhetnek a Bence-hegyi kilátóhoz is, hogy aztán a Velence Korzó mellett elhaladva érjenek vissza a szállodába."
+   ]
+  },
+  "en": {
+   "slug": "cycling-around-the-lake",
+   "title": "Cycling around the lake",
+   "summary": "Discover picturesque Lake Velence on two wheels while fresh air and a sense of freedom recharge you!",
+   "highlights": [
+    "Bookable for exactly 2 nights",
+    "Free bike rental and a cycling pack (0.5 l mineral water, seasonal fruit and a muesli bar) for one day per person",
+    "Gift pack for completing the short or long cycling quiz – ask for the quiz booklet at reception",
+    "The cycle path around the lake passes the Dinnyés Fertő nature reserve, the Sarvaicz Cross lookout, the Military Memorial Park, Pákozd Arboretum, the Miska Hussar statue and – for the fit – the Bence Hill lookout tower"
+   ]
+  }
+ },
+ {
+  "id": "vorosmarty-nyomaban",
+  "sort": 12,
+  "published": true,
+  "categories": [],
+  "image": "https://zcms.hu/velencespacom/img/package/585_855_2f26e7418744b8c06dd906c9f3520f81.jpg",
+  "heroImage": "https://zcms.hu/velencespacom/img/package/2f26e7418744b8c06dd906c9f3520f81.jpg",
+  "validFrom": "2025-01-01",
+  "validTo": "2026-12-31",
+  "priceFrom": 31700,
+  "minNights": 2,
+  "hu": {
+   "slug": "vorosmarty-nyomaban",
+   "title": "Vörösmarty nyomában",
+   "summary": "Irodalom és történelem – kulturális örökségünk a XIX. századból.",
+   "highlights": [
+    "Kizárólag 2 éjszakára foglalható.",
+    "Személyenként egy db belépőjegy a kápolnásnyéki Halász kastélyba és a Vörösmarty Emlékházba",
+    "A Vörösmarty Emlékházban látható kiállítás a legfontosabb dokumentumok segítségével mutatja be a költő életútját, pályaképét és a – szinte halála pillanatában kezdődött – Vörösmarty-kultusz történetét.",
+    "A Halász család által a XIX. század második felében, klasszicista stílusban épült Halász Kastély 2016-ban született újjá, kiállítások, koncertek, múzeumpedagógiai programok, előadások helyszíne."
+   ]
+  },
+  "en": {
+   "slug": "in-the-footsteps-of-vorosmarty",
+   "title": "In the footsteps of Vörösmarty",
+   "summary": "Literature and history – our 19th-century cultural heritage.",
+   "highlights": [
+    "Bookable for exactly 2 nights",
+    "One admission ticket per person to Halász Castle and the Vörösmarty Memorial House in Kápolnásnyék",
+    "The Vörösmarty Memorial House exhibition presents the poet’s life and the history of the Vörösmarty cult",
+    "Halász Castle, built in classicist style in the 19th century, was reborn in 2016 as a venue for exhibitions, concerts and talks"
+   ]
+  }
+ }
+]
