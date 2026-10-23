@@ -20,8 +20,8 @@ export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   // Optimistic admin gate; the session is verified again server-side.
-  if (pathname.startsWith("/admin") && !pathname.startsWith("/admin/login")) {
-    if (!req.cookies.get("vr_admin")) return NextResponse.redirect(new URL("/admin/login", req.url));
+  if (pathname === "/admin" || pathname.startsWith("/admin/")) {
+    if (!pathname.startsWith("/admin/login") && !req.cookies.get("vr_admin")) return NextResponse.redirect(new URL("/admin/login", req.url));
     return NextResponse.next();
   }
 

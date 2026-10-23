@@ -26,11 +26,26 @@ function stem(w: string) {
   return w.replace(/(okat|eket|oknak|eknek|aknak|ban|ben|bol|rol|tol|nak|nek|val|vel|kat|ket|ok|ek|ak|at|et|ot|on|en|ra|re|ba|be|t|s|ing|ed|es)$/, "") || w;
 }
 
+/** Query-side synonyms bridging everyday words to the site's vocabulary. */
+const SYNONYMS: Record<string, string> = {
+  kutya: "haziallat", kutyat: "haziallat", kutyaval: "haziallat", macska: "haziallat", allat: "haziallat", dog: "pets", dogs: "pets", cat: "pets", pet: "pets",
+  parkolo: "parkolas", parkolni: "parkolas", parkolok: "parkolas", park: "parking", car: "parking",
+  napijegy: "napijegyek", jegy: "belepo", ar: "arak", ara: "arak", mennyi: "arak", ticket: "tickets", price: "prices", cost: "prices", much: "prices",
+  nyitva: "nyitvatartas", nyit: "nyitvatartas", open: "opening", hours: "opening",
+  wifi: "wifi", internet: "wifi", reggeli: "reggeli", breakfast: "breakfast", baba: "babaagy", baby: "baby",
+};
+
 export function tokens(s: string) {
   return fold(s)
     .split(/\s+/)
     .filter((w) => w.length > 1 && !STOP.has(w))
     .map((w) => (w.length > 4 ? stem(w) : w));
+}
+
+function queryTokens(s: string) {
+  const words = fold(s).split(/\s+/).filter(Boolean);
+  const expanded = words.flatMap((w) => (SYNONYMS[w] ? [w, SYNONYMS[w]] : [w]));
+  return tokens(expanded.join(" "));
 }
 
 const strip = (h: string) =>
@@ -102,7 +117,7 @@ export function getDocs(locale: Locale): Doc[] {
 /** Simple BM25 ranking over the site's content. */
 export function search(locale: Locale, query: string, limit = 3) {
   const docs = getDocs(locale);
-  const q = [...new Set(tokens(query))];
+  const q = [...new Set(queryTokens(query))];
   if (!q.length) return [];
   const N = docs.length;
   const tok = docs.map((d) => tokens(d.text));
