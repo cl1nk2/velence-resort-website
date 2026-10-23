@@ -34,7 +34,7 @@ export default async function PricesAdmin() {
               <legend className="ml-3 px-2 font-extrabold text-navy-700">{tbl.title.hu}</legend>
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="text-left text-xs uppercase text-navy-700/70">
+                  <tr className="text-left text-xs uppercase text-navy-700/80">
                     <th className="p-3">Ticket</th>
                     {tbl.columns.hu.map((c) => (
                       <th key={c} className="p-3">
@@ -66,7 +66,7 @@ export default async function PricesAdmin() {
               </table>
             </fieldset>
           ))}
-          <p className="text-xs text-navy-800/60">Use “-” for “not available” and 0 for “free”.</p>
+          <p className="text-xs text-navy-800/75">Use “-” for “not available” and 0 for “free”.</p>
         </AdminForm>
       </div>
     </div>

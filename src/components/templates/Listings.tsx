@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Building2, Clock3, Maximize2, Ruler, Thermometer, Users } from "lucide-react";
-import type { Facts, Page } from "@/lib/content/types";
+import type { Block, Facts, Page } from "@/lib/content/types";
 import type { Locale } from "@/lib/i18n/config";
 import { childrenOf, getPage, hrefOrFallback, pageTitle } from "@/lib/content/pages";
 import { crumbsFor } from "@/lib/crumbs";
@@ -46,12 +46,12 @@ export function FacilityFacts({ facts, locale, large }: { facts?: Facts; locale:
       {entries.map((k) => {
         const I = FACT_ICONS[k];
         return (
-          <div key={k} className="flex items-center gap-3 rounded-2xl bg-white/10 p-4 ring-1 ring-white/20 backdrop-blur">
-            <I className="size-7 shrink-0 text-lake-200" aria-hidden="true" />
-            <div>
-              <dt className="text-xs font-extrabold uppercase tracking-wider text-white/70">{FACT_LABELS[locale][k]}</dt>
-              <dd className="font-display text-lg text-white">{facts[k]}</dd>
-            </div>
+          <div key={k} className="relative rounded-2xl bg-white/10 py-4 pl-14 pr-4 ring-1 ring-white/20 backdrop-blur">
+            <dt className="text-xs font-extrabold uppercase tracking-wider text-white/75">
+              <I className="absolute left-4 top-1/2 size-7 -translate-y-1/2 text-lake-200" aria-hidden="true" />
+              {FACT_LABELS[locale][k]}
+            </dt>
+            <dd className="font-display text-lg text-white">{facts[k]}</dd>
           </div>
         );
       })}
@@ -165,6 +165,16 @@ export function RoomsTemplate({ page, locale, t }: TemplateProps) {
   );
 }
 
+/** Drops a leading paragraph that just repeats the hero intro. */
+function withoutLead(blocks: Block[], lead?: string | null): Block[] {
+  if (!lead || blocks[0]?.type !== "html") return blocks;
+  const norm = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  const first = blocks[0].html.match(/^<p>([\s\S]*?)<\/p>/);
+  if (!first || norm(first[1]) !== norm(lead)) return blocks;
+  const rest = blocks[0].html.slice(first[0].length).trim();
+  return rest ? [{ type: "html", html: rest }, ...blocks.slice(1)] : blocks.slice(1);
+}
+
 export function RoomTemplate({ page, locale, t }: TemplateProps) {
   const d = page[locale]!;
   const gallery = toGalleryImages((page.gallery ?? []).map((src) => ({ src })), d.title);
@@ -191,7 +201,7 @@ export function RoomTemplate({ page, locale, t }: TemplateProps) {
       </PageHero>
       <div className="container-page grid gap-14 py-20 lg:grid-cols-[1fr_22rem]">
         <div>
-          <Blocks blocks={d.blocks} t={t} locale={locale} title={d.title} />
+          <Blocks blocks={withoutLead(d.blocks, d.excerpt)} t={t} locale={locale} title={d.title} />
           {gallery.length > 0 && (
             <div className="mt-14">
               <Gallery images={gallery} layout="grid" openLabel={t.common.photos} />

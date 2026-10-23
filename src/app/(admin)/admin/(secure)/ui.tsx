@@ -32,7 +32,7 @@ export function F({ label, children, hint }: { label: string; children: ReactNod
     <label className="block text-sm font-bold text-navy-700">
       {label}
       {children}
-      {hint && <span className="mt-1 block text-xs font-normal text-navy-800/60">{hint}</span>}
+      {hint && <span className="mt-1 block text-xs font-normal text-navy-800/75">{hint}</span>}
     </label>
   );
 }

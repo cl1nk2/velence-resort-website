@@ -20,7 +20,7 @@ export function OfferFilter({ options, children, label }: { options: { id: strin
               active === o.id ? "bg-navy-600 text-white shadow-soft" : "bg-white text-navy-700 ring-1 ring-navy-100 hover:bg-lake-50",
             )}
           >
-            {o.label} <span className="ml-1 opacity-60">{o.count}</span>
+            {o.label} <span className="ml-1 opacity-80">{o.count}</span>
           </button>
         ))}
       </div>

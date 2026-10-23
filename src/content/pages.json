@@ -5,7 +5,7 @@
   "template": "home",
   "hu": {
    "slug": "",
-   "title": "„Egyszerre tó, élményfürdő, szálloda”",
+   "title": "Kezdőlap",
    "subtitle": "Velence Resort & Spa",
    "metaTitle": "Velence Resort & Spa",
    "description": "Szállodánk a Közép-Dunántúl legnagyobb családbarát wellness szállodája, egész évben animációs programokkal várja a vendégeket.",
@@ -18,7 +18,7 @@
   },
   "en": {
    "slug": "",
-   "title": "„A lake, a spa, and a hotel — all in one place”",
+   "title": "Home",
    "subtitle": "Velence Resort & Spa",
    "metaTitle": "Velence Spa",
    "description": "Discover our family-friendly, four-star spa and wellness hotel, perfectly situated on the shores of Lake Velence.",
@@ -37,9 +37,9 @@
   "template": "hotel",
   "hu": {
    "slug": "hotel",
-   "title": "Ajánlatok",
-   "subtitle": "Fedezd fel ajánlatainkat!",
-   "metaTitle": "Velence Resort & Spa",
+   "title": "Hotel",
+   "subtitle": "Családbarát szálloda a Velencei-tó partján",
+   "metaTitle": "Hotel – Velence Resort & Spa",
    "description": "Velence Resort & Spa – Családbarát szálloda, ahol a pihenés és az élmények találkoznak.",
    "blocks": [
     {
@@ -98,7 +98,7 @@
     },
     {
      "type": "html",
-     "html": "<p>Gasztronómia\n Fedezd fel a kulináris élvezetek világát, ahol profi séfek által készített helyi és nemzetközi ízek várnak.\n Részletek</p><a href=\"/hu/gasztronomia\"></a>\n<h2>Fedezd fel</h2><h2>a Velence Resort &amp; Spa</h2><p>egyedülálló élményeit, ahol a kényelem és a természetes harmónia találkozik. Család és gyermekbarát szállodánk közvetlenül a Velencei-tó partján található, lenyűgöző panorámával és számtalan szabadidős programmal várja vendégeit. Élvezd a frissítő wellness kezeléseket, merülj el az ízek harmóniájában éttermünkben és éld át a felejthetetlen pihenést a természet ölelésében.</p>\n<h2>Wellness &amp; Spa</h2> <h2>A feltöltődés élménye</h2> <a href=\"/hu/elmenyfurdo\">Fedezd fel wellness világunkat!</a>\n <p>Merülj el a Velence Resort &amp; Spa wellness világában, ahol a pihenés és a regenerálódás tökéletes harmóniája vár! Élvezd a termálvizes medencék nyugtató hatását, próbáld ki a szaunavilágot, vagy kényeztesd magad egy pihentető, vagy frissítő masszázzsal – akár szállóvendégként, akár külső látogatóként!</p> <p><strong>Fedezd fel wellness szolgáltatásaink széles tárházát!</strong></p> <p>Wellness szolgáltatásaink nemcsak szállóvendégek, hanem napi belépőjeggyel is látogatható! Töltődj fel egy pihentető wellnessnap keretében!</p>"
+     "html": "<p>Gasztronómia\n Fedezd fel a kulináris élvezetek világát, ahol profi séfek által készített helyi és nemzetközi ízek várnak.\n Részletek</p><a href=\"/hu/gasztronomia\"></a>\n<h2>Fedezd fel a Velence Resort &amp; Spa</h2><p>egyedülálló élményeit, ahol a kényelem és a természetes harmónia találkozik. Család és gyermekbarát szállodánk közvetlenül a Velencei-tó partján található, lenyűgöző panorámával és számtalan szabadidős programmal várja vendégeit. Élvezd a frissítő wellness kezeléseket, merülj el az ízek harmóniájában éttermünkben és éld át a felejthetetlen pihenést a természet ölelésében.</p>\n<h2>Wellness &amp; Spa</h2> <h2>A feltöltődés élménye</h2> <a href=\"/hu/elmenyfurdo\">Fedezd fel wellness világunkat!</a>\n <p>Merülj el a Velence Resort &amp; Spa wellness világában, ahol a pihenés és a regenerálódás tökéletes harmóniája vár! Élvezd a termálvizes medencék nyugtató hatását, próbáld ki a szaunavilágot, vagy kényeztesd magad egy pihentető, vagy frissítő masszázzsal – akár szállóvendégként, akár külső látogatóként!</p> <p><strong>Fedezd fel wellness szolgáltatásaink széles tárházát!</strong></p> <p>Wellness szolgáltatásaink nemcsak szállóvendégek, hanem napi belépőjeggyel is látogatható! Töltődj fel egy pihentető wellnessnap keretében!</p>"
     },
     {
      "type": "image",
@@ -140,9 +140,9 @@
   },
   "en": {
    "slug": "hotel",
-   "title": "Offers",
-   "subtitle": "Discover our new offers!",
-   "metaTitle": "Velence Resort & Spa",
+   "title": "Hotel",
+   "subtitle": "Family-friendly hotel on Lake Velence",
+   "metaTitle": "Hotel – Velence Resort & Spa",
    "description": "Velence Resort & Spa – Where leisure and memorable experiences converge.",
    "blocks": [
     {
@@ -174,7 +174,7 @@
     },
     {
      "type": "html",
-     "html": "<p>Gastronomy\n Discover a world of culinary delights, featuring local and international flavors crafted by professional chefs.\n Details</p><a href=\"/en/gastronomy\"></a>\n<h2>Discover</h2><h2>a Velence Resort &amp; Spa</h2><p>Discover the unique experiences at Velence Resort &amp; Spa, where comfort meets natural harmony. Our family and child-friendly hotel is located directly on the shores of Lake Velence, offering stunning panoramic views and countless leisure programs. Enjoy refreshing wellness treatments, immerse yourself in a harmony of flavors at our restaurant, and experience unforgettable relaxation embraced by nature.</p>\n<h2>Wellness &amp; Spa</h2> <h2>The experience of rejuvenation</h2> <a href=\"/en/adventure-pool\">Discover our world!</a>\n <p>Dive into the wellness world of Velence Resort &amp; Spa, where the perfect harmony of relaxation and regeneration awaits! Enjoy the soothing effects of the thermal pools, try out the sauna world, or treat yourself to a relaxing or refreshing massage – whether you&#x27;re a hotel guest or an outside visitor!</p> <p><strong>Explore our extensive selection of wellness treatments!</strong></p> <p>Our wellness services are available not only to hotel guests but also to daily visitors with an admission ticket! Rejuvenate yourself with a relaxing wellness day!</p>"
+     "html": "<p>Gastronomy\n Discover a world of culinary delights, featuring local and international flavors crafted by professional chefs.\n Details</p><a href=\"/en/gastronomy\"></a>\n<h2>Discover a Velence Resort &amp; Spa</h2><p>Discover the unique experiences at Velence Resort &amp; Spa, where comfort meets natural harmony. Our family and child-friendly hotel is located directly on the shores of Lake Velence, offering stunning panoramic views and countless leisure programs. Enjoy refreshing wellness treatments, immerse yourself in a harmony of flavors at our restaurant, and experience unforgettable relaxation embraced by nature.</p>\n<h2>Wellness &amp; Spa</h2> <h2>The experience of rejuvenation</h2> <a href=\"/en/adventure-pool\">Discover our world!</a>\n <p>Dive into the wellness world of Velence Resort &amp; Spa, where the perfect harmony of relaxation and regeneration awaits! Enjoy the soothing effects of the thermal pools, try out the sauna world, or treat yourself to a relaxing or refreshing massage – whether you&#x27;re a hotel guest or an outside visitor!</p> <p><strong>Explore our extensive selection of wellness treatments!</strong></p> <p>Our wellness services are available not only to hotel guests but also to daily visitors with an admission ticket! Rejuvenate yourself with a relaxing wellness day!</p>"
     },
     {
      "type": "image",
@@ -222,9 +222,9 @@
   "template": "spa",
   "hu": {
    "slug": "furdo",
-   "title": "Velence Resort & Spa",
-   "subtitle": null,
-   "metaTitle": "Velence Resort & Spa",
+   "title": "Velence Spa",
+   "subtitle": "Élményfürdő, szaunapark, masszázsok",
+   "metaTitle": "Velence Spa",
    "description": "Velence Resort & Spa",
    "blocks": [
     {
@@ -239,13 +239,13 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h2>Fedezd fel</h2><h2>a Velence Spa wellness varázslatos világát!</h2><p>A Velence Spa Fürdő nemcsak a szálloda vendégei számára nyitott – bárki számára elérhető, aki egy kis kikapcsolódásra, feltöltődésre vágyik! Merülj el beltéri és kültéri termálmedencéinkben, kényeztesd magad pezsgőfürdőinkkel, és próbáld ki egyedi szaunaprogramjainkat! Legyen szó egy pihentető wellness-napról, családi fürdőzésről vagy egy kényeztető masszázsról, nálunk minden adott egy tökéletes feltöltődéshez.</p><p>Látogass el hozzánk akár egy napra, és tapasztald meg a wellness élmények valódi luxusát!</p><a href=\"/hu/nyitvatartas-es-arak\">Nyitvatartás és árak</a>"
+       "html": "<h2>Fedezd fel a Velence Spa wellness varázslatos világát!</h2><p>A Velence Spa Fürdő nemcsak a szálloda vendégei számára nyitott – bárki számára elérhető, aki egy kis kikapcsolódásra, feltöltődésre vágyik! Merülj el beltéri és kültéri termálmedencéinkben, kényeztesd magad pezsgőfürdőinkkel, és próbáld ki egyedi szaunaprogramjainkat! Legyen szó egy pihentető wellness-napról, családi fürdőzésről vagy egy kényeztető masszázsról, nálunk minden adott egy tökéletes feltöltődéshez.</p><p>Látogass el hozzánk akár egy napra, és tapasztald meg a wellness élmények valódi luxusát!</p>"
       }
      ]
     },
     {
      "type": "html",
-     "html": "<h2>Fedezd fel</h2> <h2>fürdőnk különleges élményeit</h2> <p>Generációk igényeire hangolva, ahol a nyugalom, az élmény és a családi kikapcsolódás találkozik</p>"
+     "html": "<h2>Fedezd fel fürdőnk különleges élményeit</h2> <p>Generációk igényeire hangolva, ahol a nyugalom, az élmény és a családi kikapcsolódás találkozik</p>"
     },
     {
      "type": "image",
@@ -299,15 +299,15 @@
     },
     {
      "type": "html",
-     "html": "<h2>Fedezd fel</h2> <h2>a Velence Resort &amp; Spa</h2> <p>egyedülálló élményeit, ahol a luxus és a természetes harmónia találkozik! A családbarát hotel exkluzív wellness szolgáltatásokat, termálfürdőt és prémium szálláshelyeket kínál, hogy minden vendégünk teljes kikapcsolódásban részesüljön. Szállodánk közvetlenül a Velencei-tó partján található, lenyűgöző panorámával és rengeteg szabadidős programmal várja a látogatókat. Pihenj és töltődj fel frissítő wellness kezeléseinkkel, kényeztesd ízlelőbimbóidat éttermünk kínálatával és élvezd a természet nyújtotta nyugalmat!</p>"
+     "html": "<h2>Fedezd fel a Velence Resort &amp; Spa</h2> <p>egyedülálló élményeit, ahol a luxus és a természetes harmónia találkozik! A családbarát hotel exkluzív wellness szolgáltatásokat, termálfürdőt és prémium szálláshelyeket kínál, hogy minden vendégünk teljes kikapcsolódásban részesüljön. Szállodánk közvetlenül a Velencei-tó partján található, lenyűgöző panorámával és rengeteg szabadidős programmal várja a látogatókat. Pihenj és töltődj fel frissítő wellness kezeléseinkkel, kényeztesd ízlelőbimbóidat éttermünk kínálatával és élvezd a természet nyújtotta nyugalmat!</p>"
     }
    ]
   },
   "en": {
    "slug": "spa",
-   "title": "Velence Resort & Spa",
-   "subtitle": null,
-   "metaTitle": "Velence Resort & Spa",
+   "title": "Velence Spa",
+   "subtitle": "Adventure pools, sauna park, massages",
+   "metaTitle": "Velence Spa",
    "description": "Velence Spa is open not only to hotel guests – anyone looking for relaxation and recharge is welcome!",
    "blocks": [
     {
@@ -322,13 +322,13 @@
      "blocks": [
       {
        "type": "html",
-       "html": "<h2>Discover</h2><h2>the magical world of Velence Spa wellness!</h2><p>Velence Spa is open not only to hotel guests – anyone looking for relaxation and recharge is welcome! Enjoy the indoor and outdoor thermal pools, hot tubs, and special sauna programs. Whether it’s a relaxing wellness day, family bathing, or a pampering massage, everything is provided here for a perfect recharge.</p><p>Visit us even for a day and experience the true luxury of wellness!”</p><a href=\"/en/opening-hours-and-prices\">Opening hours and prices</a>"
+       "html": "<h2>Discover the magical world of Velence Spa wellness!</h2><p>Velence Spa is open not only to hotel guests – anyone looking for relaxation and recharge is welcome! Enjoy the indoor and outdoor thermal pools, hot tubs, and special sauna programs. Whether it’s a relaxing wellness day, family bathing, or a pampering massage, everything is provided here for a perfect recharge.</p><p>Visit us even for a day and experience the true luxury of wellness!”</p>"
       }
      ]
     },
     {
      "type": "html",
-     "html": "<h2>Discover</h2> <h2>the unique experiences of our bath</h2> <p>Even the little ones won’t be bored! A playhouse, animation, and interactive programs await them at our hotel.</p>"
+     "html": "<h2>Discover the unique experiences of our bath</h2> <p>Even the little ones won’t be bored! A playhouse, animation, and interactive programs await them at our hotel.</p>"
     },
     {
      "type": "image",
@@ -615,7 +615,7 @@
     },
     {
      "type": "html",
-     "html": "<h2>Discover</h2> <h2>the hidden treasures of the region!</h2>\n <a href=\"/en/sights\">View Attractions</a>"
+     "html": "<h2>Discover the hidden treasures of the region!</h2>\n <a href=\"/en/sights\">View Attractions</a>"
     },
     {
      "type": "image",

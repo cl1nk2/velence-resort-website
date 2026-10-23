@@ -131,7 +131,7 @@ export function ChatWidget({ locale, t, closeLabel }: { locale: Locale; t: Dicti
               <Send className="size-4" aria-hidden="true" />
             </button>
           </form>
-          <p className="bg-white px-4 pb-3 text-[11px] text-navy-800/50">{t.disclaimer}</p>
+          <p className="bg-white px-4 pb-3 text-[11px] text-navy-800/75">{t.disclaimer}</p>
         </section>
       )}
       <button

@@ -26,7 +26,7 @@ export function NewsCard({ item, locale, t }: { item: NewsItem; locale: Locale; 
         </>
       }
       meta={
-        <span className="inline-flex items-center gap-1.5 font-semibold text-navy-800/60">
+        <span className="inline-flex items-center gap-1.5 font-semibold text-navy-800/75">
           <CalendarDays className="size-4" aria-hidden="true" />
           <time dateTime={item.date}>{formatDate(item.date, locale)}</time>
         </span>

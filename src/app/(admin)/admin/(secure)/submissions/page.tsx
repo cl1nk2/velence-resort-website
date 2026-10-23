@@ -19,7 +19,7 @@ export default async function SubmissionsAdmin() {
           </a>
         </div>
         <ul className="mt-6 space-y-3">
-          {subs.length === 0 && <li className="text-navy-800/60">No submissions yet.</li>}
+          {subs.length === 0 && <li className="text-navy-800/75">No submissions yet.</li>}
           {subs.map((s) => {
             const d = s.data as Record<string, string>;
             return (
@@ -30,7 +30,7 @@ export default async function SubmissionsAdmin() {
                     {d.name} · <a href={`mailto:${d.email}`} className="underline">{d.email}</a> {d.phone && `· ${d.phone}`}
                   </p>
                   <div className="flex items-center gap-2 text-xs">
-                    <time className="text-navy-800/60">{s.createdAt.toISOString().slice(0, 16).replace("T", " ")}</time>
+                    <time className="text-navy-800/75">{s.createdAt.toISOString().slice(0, 16).replace("T", " ")}</time>
                     {(["new", "done", "spam"] as const).map((st) => (
                       <form key={st} action={setSubmissionStatus}>
                         <input type="hidden" name="id" value={s.id} />
@@ -69,9 +69,9 @@ export default async function SubmissionsAdmin() {
           {people.map((p) => (
             <li key={p.id} className="flex justify-between gap-4 p-3">
               <span>
-                {p.email} {p.name && <span className="text-navy-800/60">({p.name})</span>}
+                {p.email} {p.name && <span className="text-navy-800/75">({p.name})</span>}
               </span>
-              <span className="text-navy-800/60">
+              <span className="text-navy-800/75">
                 {p.locale.toUpperCase()} · {p.createdAt.toISOString().slice(0, 10)}
               </span>
             </li>

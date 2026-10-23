@@ -180,7 +180,6 @@ export async function SpaTemplate({ page, locale, t }: TemplateProps) {
             <Img src={intro.images[0]?.src} alt="" fill sizes="(min-width:1024px) 50vw, 100vw" />
           </Reveal>
           <Reveal>
-            <p className="font-script text-4xl text-spa-400">{t.common.discover}</p>
             <div className="prose-resort mt-2" dangerouslySetInnerHTML={{ __html: intro.blocks.map((b) => (b.type === "html" ? b.html : "")).join("") }} />
             <ButtonLink href={hrefOrFallback("prices", locale)} variant="spa" className="mt-8">
               {t.nav.openingHours}

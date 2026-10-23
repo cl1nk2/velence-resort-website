@@ -180,7 +180,7 @@ export function LoyaltyTemplate({ page, locale, t }: TemplateProps) {
                 <Crown className="size-8" aria-hidden="true" />
               </span>
               <h3 className="mt-5 font-display text-2xl uppercase tracking-wide text-navy-700">{tier.name[locale]}</h3>
-              <p className="mt-1 text-sm font-bold text-navy-800/60">{tier.requirement[locale]}</p>
+              <p className="mt-1 text-sm font-bold text-navy-800/75">{tier.requirement[locale]}</p>
               <p className="mt-6 font-display text-6xl text-navy-700">{tier.discount}%</p>
               <p className="text-sm text-navy-800/70">{locale === "hu" ? "kedvezmény a foglalás végösszegéből" : "off the total of your booking"}</p>
               <p className="mt-4 rounded-2xl bg-sand-100 p-3 text-sm text-navy-800/80">
@@ -248,7 +248,7 @@ export function ReviewsTemplate({ page, locale, t }: TemplateProps) {
         </Reveal>
         <div>
           <h2 className="font-display text-3xl text-navy-700">{t.home.testimonialsTitle}</h2>
-          {locale === "en" && <p className="mt-2 text-sm text-navy-800/60">Reviews are shown in their original language (Hungarian).</p>}
+          {locale === "en" && <p className="mt-2 text-sm text-navy-800/75">Reviews are shown in their original language (Hungarian).</p>}
           <ul className="mt-8 grid gap-5 md:grid-cols-2">
             {reviews.reviews.map((r, i) => (
               <Reveal as="li" key={i} delay={(i % 2) * 80} className="rounded-3xl bg-white p-6 shadow-soft ring-1 ring-navy-100">
@@ -257,7 +257,7 @@ export function ReviewsTemplate({ page, locale, t }: TemplateProps) {
                     <Star className="size-4 fill-gold-500 text-gold-500" aria-hidden="true" /> {r.score.toFixed(1)}
                     <span className="sr-only">/ 5</span>
                   </span>
-                  <span className="text-xs font-bold text-navy-800/50">{r.category}</span>
+                  <span className="text-xs font-bold text-navy-800/75">{r.category}</span>
                 </div>
                 <Quote className="mt-4 size-6 text-lake-300" aria-hidden="true" />
                 <p className="mt-2 font-semibold leading-relaxed text-navy-800" lang="hu">

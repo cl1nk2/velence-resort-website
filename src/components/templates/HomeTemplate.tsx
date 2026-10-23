@@ -169,7 +169,7 @@ export async function HomeTemplate({ locale, t }: { locale: Locale; t: Dictionar
               <Img src={home.spaIntro.image} alt="" fill sizes="(min-width:1024px) 50vw, 100vw" />
             </div>
             <div className="absolute -bottom-6 right-6 rounded-2xl bg-white p-4 shadow-lift">
-              <p className="text-xs font-extrabold uppercase tracking-wider text-navy-700/60">{t.spa.hoursTitle}</p>
+              <p className="text-xs font-extrabold uppercase tracking-wider text-navy-700/80">{t.spa.hoursTitle}</p>
               <p className="font-display text-xl text-navy-700">
                 {site.spaHours.open} – {site.spaHours.close}
               </p>

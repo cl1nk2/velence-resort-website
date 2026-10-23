@@ -13,7 +13,7 @@ export function Breadcrumbs({ crumbs, tone = "dark", label = "Breadcrumb" }: { c
   };
   return (
     <nav aria-label={label}>
-      <ol className={clsx("flex flex-wrap items-center gap-1 text-sm font-semibold", tone === "light" ? "text-white/75" : "text-navy-700/70")}>
+      <ol className={clsx("flex flex-wrap items-center gap-1 text-sm font-semibold", tone === "light" ? "text-white/75" : "text-navy-700/80")}>
         {crumbs.map((c, i) => (
           <li key={c.href} className="flex items-center gap-1">
             {i > 0 && <ChevronRight className="size-3.5 opacity-60" aria-hidden="true" />}

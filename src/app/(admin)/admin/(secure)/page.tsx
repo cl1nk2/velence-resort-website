@@ -28,7 +28,7 @@ export default async function Dashboard() {
           <li key={c.label}>
             <Link href={c.href} className="block rounded-3xl bg-white p-6 shadow-soft ring-1 ring-navy-100 hover:ring-lake-300">
               <p className="font-display text-4xl text-navy-700">{c.value}</p>
-              <p className="mt-1 text-sm font-bold text-navy-800/60">{c.label}</p>
+              <p className="mt-1 text-sm font-bold text-navy-800/75">{c.label}</p>
             </Link>
           </li>
         ))}

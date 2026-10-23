@@ -24,9 +24,11 @@ export function CountUp({ to, locale, duration = 1600 }: { to: number; locale: s
     io.observe(el);
     return () => io.disconnect();
   }, [to, duration]);
+  const fmt = new Intl.NumberFormat(locale, { useGrouping: "always" });
   return (
-    <span ref={ref} aria-label={new Intl.NumberFormat(locale).format(to)}>
-      <span aria-hidden="true">{new Intl.NumberFormat(locale).format(v)}</span>
+    <span ref={ref}>
+      <span className="sr-only">{fmt.format(to)}</span>
+      <span aria-hidden="true">{fmt.format(v)}</span>
     </span>
   );
 }

@@ -112,19 +112,23 @@ export function Header({ locale, nav, alternates, t, links, images }: Props) {
           </nav>
 
           <div className="ml-auto flex items-center gap-2">
-            <a
-              href={altHref}
-              hrefLang={other}
-              lang={other}
-              className={clsx("rounded-full px-3 py-2 text-sm font-extrabold tracking-wider transition-colors", transparent ? "hover:bg-white/15" : "hover:bg-navy-50")}
-              aria-label={other === "en" ? "English version" : "Magyar változat"}
-            >
-              <span aria-hidden="true">{locale.toUpperCase()}</span>
-              <span aria-hidden="true" className="mx-1 opacity-40">
+            <p className={clsx("flex items-center rounded-full px-2 text-sm font-extrabold tracking-wider")}>
+              <span aria-hidden="true" className="px-1">
+                {locale.toUpperCase()}
+              </span>
+              <span aria-hidden="true" className="opacity-50">
                 /
               </span>
-              <span className="opacity-60">{other.toUpperCase()}</span>
-            </a>
+              <a
+                href={altHref}
+                hrefLang={other}
+                lang={other}
+                aria-label={other === "en" ? "EN – English version" : "HU – magyar változat"}
+                className={clsx("rounded-full px-2 py-2 underline-offset-4 hover:underline", transparent ? "hover:bg-white/15" : "hover:bg-navy-50")}
+              >
+                {other.toUpperCase()}
+              </a>
+            </p>
             <button
               type="button"
               onClick={() => openBooking()}
@@ -202,7 +206,7 @@ function MegaMenu({
               <li key={l.href}>
                 <Link href={l.href} className="block rounded-2xl px-4 py-2.5 hover:bg-navy-50">
                   <span className="block font-bold">{l.label}</span>
-                  {l.description && <span className="mt-0.5 block text-sm leading-snug text-navy-800/60 line-clamp-1">{l.description}</span>}
+                  {l.description && <span className="mt-0.5 block text-sm leading-snug text-navy-800/75 line-clamp-1">{l.description}</span>}
                 </Link>
               </li>
             ))}

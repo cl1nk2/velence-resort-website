@@ -100,7 +100,7 @@ export async function NewsDetail({ item, locale, t }: { item: NewsItem; locale: 
           <Link href={newsHref(older, locale)} className="group inline-flex max-w-sm items-center gap-3 rounded-2xl bg-white p-4 font-bold text-navy-700 shadow-soft ring-1 ring-navy-100">
             <ArrowLeft className="size-5 shrink-0 transition-transform group-hover:-translate-x-1" aria-hidden="true" />
             <span>
-              <span className="block text-xs uppercase tracking-wider text-navy-800/50">{t.a11y.previous}</span>
+              <span className="block text-xs uppercase tracking-wider text-navy-800/75">{t.a11y.previous}</span>
               {newsLocale(older, locale).data.title}
             </span>
           </Link>
@@ -110,7 +110,7 @@ export async function NewsDetail({ item, locale, t }: { item: NewsItem; locale: 
         {newer && (
           <Link href={newsHref(newer, locale)} className="group inline-flex max-w-sm items-center gap-3 rounded-2xl bg-white p-4 text-right font-bold text-navy-700 shadow-soft ring-1 ring-navy-100">
             <span>
-              <span className="block text-xs uppercase tracking-wider text-navy-800/50">{t.a11y.next}</span>
+              <span className="block text-xs uppercase tracking-wider text-navy-800/75">{t.a11y.next}</span>
               {newsLocale(newer, locale).data.title}
             </span>
             <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1" aria-hidden="true" />

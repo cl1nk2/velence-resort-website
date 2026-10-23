@@ -150,23 +150,21 @@ export async function OfferDetail({ offer, locale, t }: { offer: Offer; locale: 
             </div>
             <dl className="space-y-4 p-6 text-sm">
               {offer.validFrom && offer.validTo && (
-                <div className="flex items-start gap-3">
-                  <CalendarRange className="mt-0.5 size-5 text-lake-500" aria-hidden="true" />
-                  <div>
-                    <dt className="font-bold text-navy-700">{t.offers.validity}</dt>
+                <div className="relative pl-8">
+                  <dt className="font-bold text-navy-700">
+                    <CalendarRange className="absolute left-0 top-0.5 size-5 text-lake-500" aria-hidden="true" />
+                    {t.offers.validity}</dt>
                     <dd className="text-navy-800/80">{formatDateRange(offer.validFrom, offer.validTo, locale)}</dd>
-                  </div>
                 </div>
               )}
               {offer.minNights && (
-                <div className="flex items-start gap-3">
-                  <Moon className="mt-0.5 size-5 text-lake-500" aria-hidden="true" />
-                  <div>
-                    <dt className="font-bold text-navy-700">{locale === "hu" ? "Minimum tartózkodás" : "Minimum stay"}</dt>
+                <div className="relative pl-8">
+                  <dt className="font-bold text-navy-700">
+                    <Moon className="absolute left-0 top-0.5 size-5 text-lake-500" aria-hidden="true" />
+                    {locale === "hu" ? "Minimum tartózkodás" : "Minimum stay"}</dt>
                     <dd className="text-navy-800/80">
                       {offer.minNights} {t.offers.nights}
                     </dd>
-                  </div>
                 </div>
               )}
             </dl>

@@ -31,7 +31,7 @@ export function Input({ label, name, required, invalid, requiredLabel, hint, ...
     <div>
       <Label id={id} label={label} required={required} requiredLabel={requiredLabel} />
       <input id={id} name={name} required={required} aria-invalid={invalid || undefined} className={control} {...rest} />
-      {hint && <p className="mt-1 text-xs text-navy-800/60">{hint}</p>}
+      {hint && <p className="mt-1 text-xs text-navy-800/75">{hint}</p>}
     </div>
   );
 }

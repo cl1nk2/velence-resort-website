@@ -49,7 +49,7 @@ export function Blocks({ blocks, t, locale, title }: { blocks: Block[]; t: Dicti
                 <div className="relative aspect-[16/9] overflow-hidden rounded-[2rem] shadow-soft">
                   <Img src={b.src} alt={b.alt} fill sizes="(min-width:1024px) 900px, 100vw" />
                 </div>
-                {b.alt && <figcaption className="mt-3 text-center text-sm text-navy-800/60">{b.alt}</figcaption>}
+                {b.alt && <figcaption className="mt-3 text-center text-sm text-navy-800/75">{b.alt}</figcaption>}
               </Reveal>
             );
           case "gallery":

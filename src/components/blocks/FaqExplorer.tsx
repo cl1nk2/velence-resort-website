@@ -34,7 +34,7 @@ export function FaqExplorer({ groups, labels }: { groups: Group[]; labels: { sea
       <div className="sticky top-[calc(var(--header-h)+.5rem)] z-20 rounded-3xl bg-white/90 p-4 shadow-soft ring-1 ring-navy-100 backdrop-blur">
         <label className="relative block">
           <span className="sr-only">{labels.search}</span>
-          <Search className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-navy-700/50" aria-hidden="true" />
+          <Search className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-navy-700/80" aria-hidden="true" />
           <input
             type="search"
             value={q}
@@ -56,7 +56,7 @@ export function FaqExplorer({ groups, labels }: { groups: Group[]; labels: { sea
             </button>
           ))}
         </div>
-        <p className="mt-2 text-xs font-bold text-navy-800/60" aria-live="polite">
+        <p className="mt-2 text-xs font-bold text-navy-800/75" aria-live="polite">
           {count ? labels.results.replace("{n}", String(count)) : labels.none}
         </p>
       </div>

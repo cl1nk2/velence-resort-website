@@ -43,7 +43,7 @@ export default async function OffersAdmin() {
                     <Link href={`/admin/offers/${o.id}`} className="text-navy-700 hover:underline">
                       {o.hu.title}
                     </Link>
-                    <span className="block text-xs font-normal text-navy-800/60">{o.en.title}</span>
+                    <span className="block text-xs font-normal text-navy-800/75">{o.en.title}</span>
                   </td>
                   <td className="whitespace-nowrap p-3">
                     {o.validFrom} – {o.validTo}

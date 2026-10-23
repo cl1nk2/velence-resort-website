@@ -51,7 +51,7 @@ export function BookingForm({ t, layout = "bar", tone = "light", initial, classN
     if (!(new Date(departure) > new Date(v))) setDeparture(addDays(v, 2));
   };
 
-  const label = clsx("block text-xs font-extrabold uppercase tracking-wider", tone === "dark" ? "text-white/80" : "text-navy-700/70");
+  const label = clsx("block text-xs font-extrabold uppercase tracking-wider", tone === "dark" ? "text-white/80" : "text-navy-700/80");
   const field = clsx(
     "mt-1 w-full rounded-xl border px-3 py-2.5 font-bold outline-none transition focus:ring-4",
     tone === "dark" ? "border-white/30 bg-white/10 text-white focus:ring-white/20 [color-scheme:dark]" : "border-navy-100 bg-white text-navy-800 focus:border-lake-400 focus:ring-lake-100",
@@ -75,7 +75,7 @@ export function BookingForm({ t, layout = "bar", tone = "light", initial, classN
         <div>
           <label htmlFor={`${uid}-d`} className={label}>
             {t.departure}
-            {nights > 0 && <span className="ml-2 normal-case tracking-normal opacity-80">· {fmt(t.nights, { n: nights })}</span>}
+            {nights > 0 && <span className="ml-2 normal-case tracking-normal">· {fmt(t.nights, { n: nights })}</span>}
           </label>
           <input
             id={`${uid}-d`}
@@ -139,7 +139,7 @@ export function BookingForm({ t, layout = "bar", tone = "light", initial, classN
           {t.invalidDates}
         </p>
       )}
-      <p id={`${uid}-note`} className={clsx("mt-3 flex items-center gap-2 text-xs", tone === "dark" ? "text-white/70" : "text-navy-800/60")}>
+      <p id={`${uid}-note`} className={clsx("mt-3 flex items-center gap-2 text-xs", tone === "dark" ? "text-white/70" : "text-navy-800/75")}>
         <ShieldCheck className="size-4 shrink-0" aria-hidden="true" />
         {t.bestPrice} · {t.note}
       </p>

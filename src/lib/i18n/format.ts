@@ -17,9 +17,9 @@ export function formatDateRange(from: string, to: string, locale: Locale) {
 }
 
 export function formatPrice(huf: number, locale: Locale) {
-  return new Intl.NumberFormat(intlLocale[locale], { style: "currency", currency: "HUF", maximumFractionDigits: 0 }).format(huf);
+  return new Intl.NumberFormat(intlLocale[locale], { style: "currency", currency: "HUF", maximumFractionDigits: 0, useGrouping: "always" }).format(huf);
 }
 
 export function formatNumber(n: number, locale: Locale) {
-  return new Intl.NumberFormat(intlLocale[locale]).format(n);
+  return new Intl.NumberFormat(intlLocale[locale], { useGrouping: "always" }).format(n);
 }
