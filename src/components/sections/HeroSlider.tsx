@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode, type TouchEvent } from "react";
 import Link from "next/link";
 import clsx from "clsx";
 import { ArrowRight, Pause, Play } from "lucide-react";
@@ -52,16 +52,36 @@ export function HeroSlider({
     return () => clearTimeout(id);
   }, [i, paused, hover, go]);
 
+  // Horizontal swipe changes slide; vertical drags stay native page scrolling (touch-action: pan-y).
+  const touch = useRef<{ x: number; y: number } | null>(null);
+  const onTouchStart = (e: TouchEvent) => {
+    const t = e.touches[0];
+    touch.current = e.touches.length === 1 ? { x: t.clientX, y: t.clientY } : null;
+  };
+  const onTouchEnd = (e: TouchEvent) => {
+    const start = touch.current;
+    touch.current = null;
+    if (!start) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - start.x;
+    const dy = t.clientY - start.y;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.2) go(i + (dx < 0 ? 1 : -1));
+  };
+
   const s = slides[i];
   return (
     <section
-      className="relative isolate min-h-[100svh] overflow-hidden bg-navy-900 text-white"
+      className="relative isolate min-h-[100svh] touch-pan-y overflow-hidden bg-navy-900 text-white"
       aria-roledescription="carousel"
       aria-label={kicker}
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
+      // Mouse only: iOS fires an emulated mouseenter on tap with no matching leave, which would stall autoplay.
+      onPointerEnter={(e) => e.pointerType === "mouse" && setHover(true)}
+      onPointerLeave={(e) => e.pointerType === "mouse" && setHover(false)}
       onFocusCapture={() => setHover(true)}
       onBlurCapture={() => setHover(false)}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+      onTouchCancel={() => (touch.current = null)}
     >
       {slides.map((sl, n) => (
         <div
@@ -89,9 +109,9 @@ export function HeroSlider({
 
       <div className="container-page flex min-h-[100svh] flex-col justify-end pb-10 pt-[calc(var(--header-h)+2rem)]">
         <div className="grid items-end gap-10 lg:grid-cols-[1fr_22rem]">
-          <div aria-live={paused ? "polite" : "off"} aria-atomic="true">
+          <div className="min-w-0" aria-live={paused ? "polite" : "off"} aria-atomic="true">
             <p className="text-sm font-extrabold uppercase tracking-[0.25em] text-lake-200">{kicker}</p>
-            <h1 key={`h${i}`} className={clsx("mt-4 max-w-4xl font-display text-5xl leading-[1.02] text-balance drop-shadow sm:text-6xl lg:text-7xl", changed && "animate-[fadeIn_.9s_ease-out]")}>
+            <h1 key={`h${i}`} className={clsx("mt-4 max-w-4xl font-display text-[clamp(2.25rem,12vw,3rem)] leading-[1.02] text-balance hyphens-auto drop-shadow sm:text-6xl lg:text-7xl", changed && "animate-[fadeIn_.9s_ease-out]")}>
               {s.title}
             </h1>
             <p key={`p${i}`} className={clsx("mt-5 max-w-xl text-lg text-white/90 sm:text-xl", changed && "animate-[fadeIn_1.1s_ease-out]")}>
