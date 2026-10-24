@@ -40,7 +40,7 @@ export function PageHero({
       <div className={clsx("container-page flex flex-col justify-end pb-14 pt-[calc(var(--header-h)+3rem)]", size === "lg" ? "min-h-[78svh]" : "min-h-[58svh]")}>
         <Breadcrumbs crumbs={crumbs} tone="light" />
         {kicker && <p className="mt-6 font-script text-3xl leading-none text-lake-200 sm:text-4xl">{kicker}</p>}
-        <h1 className="mt-2 max-w-4xl font-display text-4xl leading-[1.08] text-balance drop-shadow-sm sm:text-5xl lg:text-6xl">{title}</h1>
+        <h1 className="mt-2 max-w-4xl font-display text-[clamp(1.75rem,10vw,2.25rem)] leading-[1.08] text-balance hyphens-auto drop-shadow-sm sm:text-5xl lg:text-6xl">{title}</h1>
         {intro && <div className="mt-5 max-w-2xl text-lg leading-relaxed text-white/90">{intro}</div>}
         {children}
       </div>

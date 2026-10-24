@@ -32,7 +32,7 @@ export function BookingDialog({ t, closeLabel }: { t: Dictionary["booking"]; clo
       }}
     >
       <div className="relative bg-gradient-to-br from-navy-600 to-lake-500 px-6 pb-6 pt-7 text-white sm:px-8">
-        <p className="font-script text-3xl leading-none text-lake-100">Velence Resort & Spa</p>
+        <p className="pr-10 font-script text-3xl leading-none text-lake-100">Velence Resort & Spa</p>
         <h2 id="booking-title" className="mt-1 font-display text-3xl">
           {t.title}
         </h2>

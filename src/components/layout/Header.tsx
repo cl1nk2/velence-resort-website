@@ -337,7 +337,7 @@ function MobileMenu({
           >
             <CalendarDays className="size-5" aria-hidden="true" /> {t.nav.book}
           </button>
-          <div className="grid grid-cols-3 gap-2 text-center text-xs font-bold text-navy-700">
+          <div className="grid grid-cols-3 gap-2 text-center text-xs font-bold text-navy-700 [&>a]:min-w-0 [&>a]:px-1.5 [&>a]:hyphens-auto [&>a]:[overflow-wrap:anywhere]">
             <a href={links.voucher} target="_blank" rel="noopener" className="rounded-2xl bg-sand-100 p-3 hover:bg-sand-200">
               <Gift className="mx-auto mb-1 size-5" aria-hidden="true" />
               {t.nav.voucher}

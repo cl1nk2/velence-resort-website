@@ -23,7 +23,7 @@ export function Testimonials({ locale, label }: { locale: Locale; label: string 
     <div className="group relative overflow-hidden" role="region" aria-label={label}>
       <ul className="flex w-max animate-marquee gap-5 group-hover:[animation-play-state:paused] motion-reduce:w-auto motion-reduce:animate-none motion-reduce:flex-wrap">
         {row.map((r, i) => (
-          <li key={i} aria-hidden={i >= list.length} className="w-[22rem] shrink-0 rounded-3xl bg-white/10 p-6 text-white ring-1 ring-white/15 backdrop-blur">
+          <li key={i} aria-hidden={i >= list.length} className="w-[min(22rem,80vw)] shrink-0 rounded-3xl bg-white/10 p-6 text-white ring-1 ring-white/15 backdrop-blur">
             <Quote className="size-7 text-lake-300" aria-hidden="true" />
             <p className="mt-3 line-clamp-5 leading-relaxed text-white/90">{r.title}</p>
             <div className="mt-4 flex items-center justify-between text-sm">
