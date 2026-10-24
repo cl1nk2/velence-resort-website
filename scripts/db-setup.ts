@@ -44,7 +44,7 @@ async function main() {
   for (const stmt of DDL) await db.execute(sql.raw(stmt));
   const [{ n: offerCount }] = (await db.execute(sql`select count(*)::int as n from offers`)).rows as { n: number }[];
   if (offerCount === 0) {
-    for (const o of offers as any[]) {
+    for (const o of offers as (typeof schema.offers.$inferInsert)[]) {
       await db.insert(schema.offers).values({
         id: o.id, sort: o.sort, published: o.published, categories: o.categories, image: o.image, heroImage: o.heroImage,
         validFrom: o.validFrom, validTo: o.validTo, priceFrom: o.priceFrom, minNights: o.minNights, hu: o.hu, en: o.en,
@@ -54,7 +54,7 @@ async function main() {
   }
   const [{ n: newsCount }] = (await db.execute(sql`select count(*)::int as n from news`)).rows as { n: number }[];
   if (newsCount === 0) {
-    for (const n of news as any[]) {
+    for (const n of news as (typeof schema.news.$inferInsert)[]) {
       await db.insert(schema.news).values({ id: n.id, category: n.category, date: n.date, published: n.published, image: n.image, gallery: n.gallery, hu: n.hu, en: n.en ?? null });
     }
     console.log(`[db-setup] seeded ${news.length} news items`);

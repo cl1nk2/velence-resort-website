@@ -38,10 +38,12 @@ export function Header({ locale, nav, alternates, t, links, images }: Props) {
   }, []);
 
   // Close menus on navigation.
-  useEffect(() => {
+  const [lastPath, setLastPath] = useState(pathname);
+  if (pathname !== lastPath) {
+    setLastPath(pathname);
     setOpen(null);
     setMobile(false);
-  }, [pathname]);
+  }
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {

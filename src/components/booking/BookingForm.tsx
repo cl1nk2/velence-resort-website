@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useId, useState } from "react";
+import { useId, useState } from "react";
 import clsx from "clsx";
 import { Minus, Plus, Search, ShieldCheck } from "lucide-react";
 import type { Dictionary } from "@/lib/i18n/dictionaries/hu";
 import { fmt } from "@/lib/i18n/format";
+import { useClientValue } from "@/lib/use-client-value";
 
 const ENGINE = "https://book.velencespa.com/foglalas/kereses";
 
@@ -30,16 +31,12 @@ type Props = {
  * Opens in a new tab so the visitor can come back to the site.
  */
 export function BookingForm({ t, layout = "bar", tone = "light", initial, className }: Props) {
-  // Dates depend on "today", so they are filled in on the client after mount.
-  const [today, setToday] = useState("");
-  const [arrival, setArrival] = useState(initial?.arrival ?? "");
-  const [departure, setDeparture] = useState(initial?.departure ?? "");
-  useEffect(() => {
-    const now = iso(new Date());
-    setToday(now);
-    setArrival((a) => a || addDays(now, 7));
-    setDeparture((d) => d || addDays(initial?.arrival ?? addDays(now, 7), 2));
-  }, [initial?.arrival]);
+  // Default dates depend on "today", so they are only filled in on the client.
+  const today = useClientValue(() => iso(new Date()), "");
+  const [arrivalInput, setArrival] = useState(initial?.arrival ?? "");
+  const [departureInput, setDeparture] = useState(initial?.departure ?? "");
+  const arrival = arrivalInput || (today && addDays(today, 7));
+  const departure = departureInput || (today && addDays(initial?.arrival ?? addDays(today, 7), 2));
   const [adults, setAdults] = useState(initial?.adults ?? 2);
   const [ages, setAges] = useState<number[]>([]);
   const uid = useId();

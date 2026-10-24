@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 
@@ -14,12 +15,12 @@ export default function GlobalNotFound() {
           <p className="text-8xl font-black text-white/20">404</p>
           <h1 className="mt-2 text-3xl font-bold">Az oldal nem található · Page not found</h1>
           <p className="mt-6 flex justify-center gap-3">
-            <a href="/hu" className="rounded-full bg-white px-6 py-3 font-bold text-navy-800">
+            <Link href="/hu" className="rounded-full bg-white px-6 py-3 font-bold text-navy-800">
               Kezdőlap
-            </a>
-            <a href="/en" className="rounded-full border-2 border-white px-6 py-3 font-bold">
+            </Link>
+            <Link href="/en" className="rounded-full border-2 border-white px-6 py-3 font-bold">
               Home
-            </a>
+            </Link>
           </p>
         </main>
       </body>

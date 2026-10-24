@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { LoginForm } from "./LoginForm";
 import { Logo } from "@/components/brand/Logo";
 
@@ -16,9 +17,9 @@ export default function LoginPage() {
           </p>
         )}
         <p className="mt-6 text-center text-sm">
-          <a href="/hu" className="font-bold text-navy-600 hover:underline">
+          <Link href="/hu" className="font-bold text-navy-600 hover:underline">
             ← Back to the website
-          </a>
+          </Link>
         </p>
       </div>
     </main>

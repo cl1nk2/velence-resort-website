@@ -1,6 +1,6 @@
 "use client";
 
-import { Children, useCallback, useEffect, useState, type ReactNode } from "react";
+import { Children, useCallback, useSyncExternalStore, type ReactNode } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import clsx from "clsx";
@@ -8,13 +8,20 @@ import clsx from "clsx";
 /** Swipeable, keyboard-operable carousel for server-rendered cards. */
 export function Carousel({ children, labels, className }: { children: ReactNode; labels: { previous: string; next: string }; className?: string }) {
   const [ref, api] = useEmblaCarousel({ align: "start", containScroll: "trimSnaps", dragFree: false });
-  const [can, setCan] = useState({ prev: false, next: true });
-  const update = useCallback(() => api && setCan({ prev: api.canScrollPrev(), next: api.canScrollNext() }), [api]);
-  useEffect(() => {
-    if (!api) return;
-    update();
-    api.on("select", update).on("reInit", update);
-  }, [api, update]);
+  const subscribe = useCallback(
+    (cb: () => void) => {
+      if (!api) return () => {};
+      api.on("select", cb).on("reInit", cb);
+      return () => {
+        api.off("select", cb).off("reInit", cb);
+      };
+    },
+    [api],
+  );
+  const can = {
+    prev: useSyncExternalStore(subscribe, () => api?.canScrollPrev() ?? false, () => false),
+    next: useSyncExternalStore(subscribe, () => api?.canScrollNext() ?? true, () => true),
+  };
   return (
     <div className={clsx("relative", className)}>
       <div className="overflow-hidden" ref={ref}>

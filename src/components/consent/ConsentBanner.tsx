@@ -1,26 +1,25 @@
 "use client";
 
-import { useEffect, useId, useState } from "react";
+import { useId, useState } from "react";
 import Link from "next/link";
 import { Cookie } from "lucide-react";
-import { useConsent } from "./ConsentProvider";
+import { useConsent, type Consent } from "./ConsentProvider";
 import type { Dictionary } from "@/lib/i18n/dictionaries/hu";
 
-export function ConsentBanner({ t, privacyHref, privacyLabel }: { t: Dictionary["consent"]; privacyHref: string; privacyLabel: string }) {
+type Props = { t: Dictionary["consent"]; privacyHref: string; privacyLabel: string };
+
+export function ConsentBanner(props: Props) {
   const { open, save, consent } = useConsent();
+  // Mounted fresh on every open, so the toggles start from the stored choice.
+  return open ? <Banner {...props} save={save} consent={consent} /> : null;
+}
+
+function Banner({ t, privacyHref, privacyLabel, save, consent }: Props & { save: (c: Consent) => void; consent: Consent | null }) {
   const [details, setDetails] = useState(false);
-  const [analytics, setAnalytics] = useState(true);
-  const [media, setMedia] = useState(true);
+  const [analytics, setAnalytics] = useState(consent?.analytics ?? true);
+  const [media, setMedia] = useState(consent?.media ?? true);
   const titleId = useId();
 
-  useEffect(() => {
-    if (consent) {
-      setAnalytics(consent.analytics);
-      setMedia(consent.media);
-    }
-  }, [consent]);
-
-  if (!open) return null;
   return (
     <section
       role="dialog"

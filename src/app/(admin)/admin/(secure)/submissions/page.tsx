@@ -14,7 +14,7 @@ export default async function SubmissionsAdmin() {
       <section>
         <div className="flex flex-wrap items-center justify-between gap-4">
           <h1 className="font-display text-3xl text-navy-700">Submissions</h1>
-          <a href="/api/admin/export?type=submissions" className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-navy-700 ring-1 ring-navy-100">
+          <a download href="/api/admin/export?type=submissions" className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-navy-700 ring-1 ring-navy-100">
             <Download className="size-4" aria-hidden="true" /> CSV
           </a>
         </div>
@@ -61,7 +61,7 @@ export default async function SubmissionsAdmin() {
       <section id="subscribers">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <h2 className="font-display text-2xl text-navy-700">Newsletter subscribers ({people.length})</h2>
-          <a href="/api/admin/export?type=subscribers" className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-navy-700 ring-1 ring-navy-100">
+          <a download href="/api/admin/export?type=subscribers" className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-navy-700 ring-1 ring-navy-100">
             <Download className="size-4" aria-hidden="true" /> CSV
           </a>
         </div>

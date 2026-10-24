@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import { useEffect, useId, useState, type InputHTMLAttributes, type ReactNode, type SelectHTMLAttributes, type TextareaHTMLAttributes } from "react";
+import { useEffect, useId, useRef, type InputHTMLAttributes, type ReactNode, type SelectHTMLAttributes, type TextareaHTMLAttributes } from "react";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 import type { FormState } from "@/lib/actions/forms";
 import type { Dictionary } from "@/lib/i18n/dictionaries/hu";
@@ -74,12 +74,15 @@ export function Consent({ label, href, invalid, requiredLabel }: { label: string
 
 /** Honeypot + render timestamp used by the server actions' bot checks. */
 export function BotFields({ locale }: { locale: string }) {
-  const [ts, setTs] = useState("");
-  useEffect(() => setTs(String(Date.now())), []);
+  // Set after mount so cached/prerendered pages don't carry a stale render time.
+  const ts = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    if (ts.current) ts.current.value = String(Date.now());
+  }, []);
   return (
     <>
       <input type="hidden" name="locale" value={locale} />
-      <input type="hidden" name="ts" value={ts} />
+      <input ref={ts} type="hidden" name="ts" />
       <div aria-hidden="true" className="absolute -left-[9999px] size-px overflow-hidden">
         <label>
           Website
